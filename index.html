@@ -1,22 +1,80 @@
-ble<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Supplemental Materials: Experimental Characterization of ETT Cuff P-V Behavior</title>
+  <title>Supplemental Materials: ETT Cuff P-V Study</title>
   <style>
+    /* 
+      Primary Pitt Colors (approx):
+      Pitt Royal: #003594
+      Pitt Gold:  #FFB81C
+    */
+
+    /* Reset & Body */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
+      font-family: "Helvetica Neue", Arial, sans-serif;
       line-height: 1.6;
-    }
-    h1, h2, h3 {
+      background-color: #f9f9f9;
       color: #333;
-      margin-top: 1em;
+      margin: 0;
+      padding: 0;
     }
+
+    /* Header / Navbar */
+    header {
+      background-color: #003594; /* Pitt Royal */
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      color: #FFB81C; /* Pitt Gold */
+      font-size: 1.8rem;
+      margin-bottom: 0.3em;
+    }
+    header p {
+      color: #fff;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #FFB81C;  /* Pitt Gold */
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fbe27c; /* a lighter gold on hover */
+      text-decoration: underline;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Section Titles */
+    h2, h3 {
+      color: #003594; /* Pitt Royal */
+      margin-top: 1.4em;
+      margin-bottom: 0.6em;
+    }
+
     p {
-      max-width: 800px;
+      margin-bottom: 1em;
+      max-width: 900px;
     }
-    /* Basic styling for images and figure captions */
+
+    /* Image Blocks & Captions */
     .img-block {
       margin-bottom: 30px;
     }
@@ -24,7 +82,7 @@ ble<!DOCTYPE html>
       max-width: 100%;
       height: auto;
       display: block;
-      border: 1px solid #ccc;
+      border: 2px solid #ccc;
       margin: 10px 0;
     }
     .caption {
@@ -32,16 +90,17 @@ ble<!DOCTYPE html>
       font-style: italic;
       color: #555;
     }
-    /* Basic table styling */
+
+    /* Tables */
     .table-wrapper {
       max-width: 100%;
-      overflow-x: auto; /* horizontal scroll if needed */
+      overflow-x: auto;
       margin-bottom: 40px;
     }
     table {
       border-collapse: collapse;
       width: 100%;
-      min-width: 600px; /* so columns have space to show properly */
+      min-width: 600px;
       margin-bottom: 10px;
     }
     th, td {
@@ -50,31 +109,44 @@ ble<!DOCTYPE html>
       text-align: left;
     }
     th {
-      background: #f9f9f9;
+      background-color: #003594; /* Pitt Royal */
+      color: #fff;
     }
-    /* Navigation at the top for quick jumps if you like anchors */
-    nav {
-      margin-bottom: 20px;
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
     }
-    nav a {
-      margin-right: 10px;
-      text-decoration: none;
-      color: #0066cc;
+
+    /* Footer */
+    footer {
+      background-color: #003594; 
+      color: #fff;
+      text-align: center;
+      padding: 10px 20px;
+      margin-top: 40px;
     }
-    nav a:hover {
-      text-decoration: underline;
+
+    /* Media Queries (Optional) */
+    @media (max-width: 768px) {
+      nav a {
+        display: inline-block;
+        margin: 5px 5px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <!-- Optional top navigation to jump between sections -->
-  <nav>
-    <a href="#overview">Overview</a> | 
-    <a href="#methods-media">Methods Photos</a> | 
-    <a href="#data-tables">Supplementary Data</a> | 
-    <a href="#additional-figures">Additional Figures</a> 
-  </nav>
+  <!-- Header Section -->
+  <header>
+    <h1>Supplemental Materials</h1>
+    <p>Experimental Characterization of ETT Cuff P-V Behavior in Simulated &amp; Cadaveric Tracheas</p>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#methods-media">Methods Photos</a>
+      <a href="#data-tables">Supplementary Data</a>
+      <a href="#additional-figures">Additional Figures</a>
+    </nav>
+  </header>
 
   <h1 id="overview">Supplemental Information</h1>
   <p>

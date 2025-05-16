@@ -1,4 +1,2114 @@
+Skip to content
+You said:
+I wrote a paper here:
+"Title: Experimental Characterization of Endotracheal Tube Cuff Pressure-Volume Behavior in Simulated and Cadaveric Tracheas
+A Comparative Study of Rigid, Elastic, and Cadaveric Airway Models
+
+Authors: 
+Alexandria Harris, MD, MS
+Department of Otolaryngology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA
+Amila Nitsic, BS
+Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA, USA
+Kyle Affolter, MS
+School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA
+Carl H. Snyderman, MD, MBA 
+Departments of Otolaryngology and Neurological Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA
+
+
+Corresponding Author: 
+Carl H. Snyderman, MD, MBA (Corresponding Author)
+Department of Otolaryngology and Neurological Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA
+Email: snydermanc@upmc.edu
+
+Abstract:
+Objective:
+To characterize the pressure-volume (P-V) behavior of two common endotracheal tube (ETT) cuffs across three airway models of increasing anatomic realism: rigid, elastic, and cadaveric, and to quantify the narrow volume threshold separating safe from potentially injurious cuff pressures.
+Methods:
+We tested TaperGuard™ and Sheridan™ reinforced ETTs (sizes 6.0-8.0 mm) in rigid manikin, elastic synthetic, and cadaveric tracheas. Cuff pressure was recorded after 0.2 mL incremental inflation up to 120 cmH₂O. Polynomial and power-law models were fitted to the P-V curves. Key metrics included ΔV from 20 to 30 cmH₂O, curve slope, and model fit accuracy.
+Results:
+All cuffs demonstrated nonlinear P-V behavior. Cadaveric tracheas exhibited the steepest pressure escalation, with ΔV (20→30 cmH₂O) as small as 0.25 mL. Elastic models showed delayed pressure rise, while rigid models escalated rapidly once wall contact was reached. Polynomial models (R² ≥ 0.93-0.99) better captured high-pressure transitions than power-law fits. Tapered cuffs achieved effective seals with lower volumes than cylindrical cuffs but demonstrated similarly steep pressure increases when overinflated.
+Conclusion:
+ETT cuff behavior is highly sensitive to airway compliance. Cadaveric airways showed a narrower inflation margin than synthetic models, underscoring the limitations of manikin-based training. Across designs, small additional volumes can precipitate unsafe pressures, highlighting the need for precise pressure-guided cuff management over volume estimation.
+
+Keywords: Endotracheal tube, Cuff pressure, Tracheal compliance, Cadaveric model, Airway management, Pressure–volume curve, Tapered cuff, Simulation
+
+Introduction
+Cuffed endotracheal tubes (ETT) are ubiquitous in airway management for anesthesia and critical care, serving the dual purpose of securing ventilation and protecting the lungs from aspiration of oropharyngeal contents.  Optimal management of endotracheal tube cuffs requires balancing pressures that must be high enough to prevent air leaks and dangerous aspiration of secretions, but not so high as to cause tissue damage. If cuff pressure exceeds the perfusion pressure of the tracheal mucosa, ischemic injury can occur, potentially leading to ulceration, cartilage damage, and long-term complications like tracheal stenosis1. If too low, it may allow aspiration of secretions or blood around the cuff, a major pathway for ventilator associated pneumonia and respiratory compromise in intubated patients2,3.
+The recommended safe range for ETT cuff pressures (20-30 cm H2O) has been established from clinical and experimental observations showing pressures above 30 cm H2O showed visible blanching of the tracheal mucosa suggesting capillary compromise and those below 20 showed concerns for aspiration of secretions around the ETT cuff4,5. Researchers have proposed various inflation strategies, from minimal occlusive volume to continuous cuff pressure monitoring, to mitigate the risks of over‐ or under‐inflation2,6–8. Microaspiration can occur even with “proper” cuff pressures if there are folds or channels in the cuff, or if the pressure is insufficient to overcome factors like positive airway pressure or changes in patient position9–11.  To mitigate aspiration, manufacturers have introduced modifications such as tapered cuff shapes (which aim to reduce cuff folds and create a more continuous seal) and novel cuff materials like ultrathin polyurethane (which conforms more closely to the tracheal wall than traditional thicker PVC cuffs) 12–15.
+Despite these advances, direct comparisons of ETT cuff performance between different tube brands and in airways with different compliance, such as rigid airway simulators, elastic models, and cadaveric tissue, remain limited. Previous work has demonstrated that tracheal anatomy can significantly affect intracuff pressure, because cuff shape, thickness, and resting diameter all interact with the airway’s compliance and geometry16,17.  However, few studies have simultaneously examined multiple ETT designs across varied airway conditions to characterize how quickly pressures may escalate. Such data are critical for clinicians who must decide which tube and inflation strategy to use under different circumstances, particularly when clinical resources for advanced monitoring (e.g., specialized cuff manometers or continuous volume‐time curves) may be limited18.
+To better understand these dynamics, the present study systematically compared ETT cuff pressure-volume (P-V) behavior using three different tracheal models of increasing realism: a rigid pipe, an elastic simulated trachea model, and a cadaveric human trachea. By examining how ach model responds to incremental cuff inflation, we aimed to delineate the nonlinear P-V characteristics of ETT cuffs and the impact of airway compliance. This knowledge is crucial for improving cuff management strategies and preventing complications due to the narrow volume range between adequate sealing and overinflation.
+
+Methods
+
+We evaluated the P-V behavior of  ETT cuffs across three airway models:
+•	Rigid manikin airway (Ambu™) simulating a noncompliant trachea
+•	Elastic airway trainer (TruCorp™) representing compliant, tissue-like expansion
+•	Cadaveric human tracheas (freshly frozen without fixatives) representing true human airway compliance
+Two common adult ETT cuff types were tested in each model:
+•	TaperGuard™ (Covidien) - a tapered high-volume, low-pressure cuff
+•	Sheridan™ Reinforced (Teleflex) - a cylindrical high-volume, low-pressure cuff
+Each tube was tested with internal diameters ranging from 6.0 to 8.0 mm. Cuffs were incrementally inflated using a Luer-lock syringe (max volume 10mL) in 0.2 mL steps, with intracuff pressure recorded after each injection using a calibrated cuff manometer. Inflation continued until 120 cmH₂O was reached. Each tube-model combination was tested in triplicate. Third-order polynomial models were fitted to the P-V data using least-squares regression: 
+P(V) = a + bV + cV2 + dV3
+If the cubic coefficient (d) was not statistically significant (p>0.05), the model was reduced to a second order (quadratic) polynomial:
+P(V) =  a  + bV  + cV2.
+Additionally, power-law relationships of the form:
+P(V)=αVβ
+were compared by log-transforming both variables and applying linear regression:
+ln(P)=ln(α)+βln(V).
+Model performance was evaluated using the coefficient of determination (R2) and the standard error of the estimate (SEE). Pressure escalation slopes from 20 to 30 cmH₂O (i.e., ΔP/ΔV) were calculated, and inter-model differences in these slopes were analyzed using analysis of variance (ANOVA) and Tukey posthoc comparisons. Paired t-tests were employed to compare residuals (polynomial vs. power-law) in the high-pressure region (V≥3.0 mL). All statistical tests were conducted in SPSS v28, with significance defined as p<0.05.
+This study did not involve live human or animal subjects. Ethical considerations for cadaver use followed the relevant institutional guidelines (CORID #1091).
+
+Results 
+Nonlinear Pressure-Volume Behavior Across Models
+All three airway models—rigid manikin, elastic trainer, and cadaveric trachea—demonstrated nonlinear pressure-volume (P-V) behavior across cuff types and sizes. Cuff pressure remained low in early inflation phases but escalated sharply beyond a specific threshold volume. Third-order polynomial models consistently produced a superior fit for this behavior, particularly in the high-pressure range (R² ≥ 0.93-0.99), outperforming power-law models, which underestimated pressures by 5-15 cmH₂O when inflation exceeded 3.0-3.5 mL.
+Rigid Model
+In the rigid manikin model, pressure escalation occurred at inflation volumes of 2.0-2.5 mL across both TaperGuard and Sheridan cuffs. Polynomial fits achieved R² values of 0.98-0.99 with standard errors of estimate (SEE) <2.0 cmH₂O. For instance, a representative TaperGuard 6.0 cuff fit was:
+P(V)=3.50−15.33V+25.32V2−3.25V3(R2=0.98, SEE=1.87 cmH2O)
+whereas the power-law approximation (ln(P)=16.18+1.42ln(V)) began to underestimate pressures by several cmH₂O at volumes greater than 3.0 mL, seen in Table 1. The volume increment (ΔV) required to transition from 20 cmH₂O to 30 cmH₂O ranged widely (0.22-0.70 mL), showing how quickly hazards of overinflation can develop in a noncompliant airway setting. Power-law approximations became increasingly inaccurate beyond 3.0 mL, underestimating pressure by 3-5 cmH₂O.
+Elastic Trucorp Model
+In the Trucorp elastic model, greater airway compliance allowed delayed pressure inflection. Compared to the rigid model, the inflation volume needed to reach 20 cmH₂O was 15-30% higher. However, once that threshold was surpassed, pressure still rose steeply into the 30 cmH₂O range within 0.3-0.4 mL. A representative polynomial fit (Sheridan 7.0 cuff) showed:
+P(V)=−0.13+5.08V−2.24V2+0.41V3(R2=0.98, SEE=0.45 cmH2O).
+while power-law functions (P=3.18V1.19) systematically under-predicted the final high-pressure phase by 5-10 cmH₂O if volumes exceeded roughly 4.5 mL (Table 2). Mean ΔV from 20 to 30 cmH₂O for both cuff types was 0.40 mL.
+Cadaver Tissue
+The cadaver trachea exhibited the earliest and steepest pressure escalation. Inflation volumes of just 2.5-3.0 mL resulted in pressures exceeding 20 cmH₂O, with only 0.2-0.3 mL additional air required to reach 30 cmH₂O. This ΔV was 50% smaller than in synthetic models (p < 0.01), indicating a significantly narrower "safe" inflation margin. For a TaperGuard 6.0 cuff:
+P(V)=−0.64+25.45V+14.66V2−2.77V3(R2=0.997, SEE=0.17 cmH2O)
+In contrast, a power-law approximation (P=e34.39V1.48) reproduced only the initial, lower-pressure range and erred by as much as 10-15 cmH₂O when volumes approached the 3.0-3.5 mL region, example in Table 3. Pressure escalation slopes in cadaveric tissue were 15-18% steeper than synthetic models (p < 0.01), suggesting heightened risk for mucosal injury in less compliant human tissue.
+Cuff Design and Size Effects
+Cross-model analysis for 7.0 mm cuffs demonstrated the following ΔV (20→30 cmH₂O):
+•	Rigid model: 0.46 mL (TaperGuard), 0.50 mL (Sheridan)
+•	Elastic model: 0.40 mL (both cuffs)
+•	Cadaver model: 0.25 mL (TaperGuard), 0.30 mL (Sheridan)
+Escalation slopes (cmH₂O/mL) were sharpest in cadaveric tissue: 40.0 (TaperGuard) vs. 33.3 (Sheridan), compared to 20-25 in synthetic models, summarized in the cross-model comparison (Table 4). Notably, the cadaver model had significantly smaller standard errors of estimate and showed a marked inflection in P-V curves within narrow volume thresholds.
+TaperGuard cuffs required slightly lower volumes to achieve 20-30 cmH₂O compared to Sheridan cuffs, particularly in smaller tube sizes. At lower pressures, cuff geometry influenced inflation behavior: TaperGuard curves had smaller quadratic/cubic terms, indicating flatter slopes in early inflation phases. However, once pressure exceeded ~25 cmH₂O, both cuffs showed converging escalation behavior. Figures 3 and 4 show cross model comparisons of 6.0 and 8.0 size tubes.
+Tube size influenced the absolute volume required to seal: 8.0 mm tubes needed 0.3-0.5 mL more than 6.0 mm tubes to reach 20 cmH₂O. However, this effect diminished at higher pressures, with similar ΔV and slope characteristics beyond 25 cmH₂O across sizes (p > 0.10). Among all sizes and models, the narrowest ΔV occurred in cadaveric models, independent of tube diameter. Full dataset-level fits and regression coefficients are provided in Supplementary Table 5. 
+
+Discussion
+Our findings demonstrate that ETT cuff pressure-volume dynamics can vary dramatically depending on both the cuff design and the compliance of the surrounding tracheal environment. In the cadaveric trachea model, which most closely approximates the human airway, we observed a particularly steep pressure rise as the cuff approached its sealing volume. Notably, an increase of just ~0.25 mL of air near the sealing point caused cuff pressure to climb sharply into the high-pressure range. This underscores how limited the “safe zone” of inflation can be in a realistic airway: once the cuff fills the available tracheal space, even a tiny additional volume can send pressures past 30 cmH₂O. 
+Our study demonstrates low-pressure plateau followed by high pressure spikes in all scenarios. This dual behavior is expected as it aligns with balloon mechanics where the uninflated, or underinflated cuff is easy to inflate when it is not constrained, however when it pushes against the solid boundary (the trachea), it requires increasingly high pressures to inflate. This transition occurred around 25-30 cmH₂O, suggesting that the cuff pressure safety range of 30 cmH₂O is not just related to tissue ischemia, but the mechanical tipping point where the trachea experiences a disproportionate increate in force for each added volume.  This finding is consistent with prior observations that ETT cuffs are highly sensitive to small volume increments, particularly in stiffer or smaller airway conduits, leading to disproportionately large pressure changes above our mechanical tipping point15,16. This underscores the importance of measuring cuff pressure whenever feasible, rather than relying solely on pilot‐balloon palpation or default inflation volumes3,19. In contrast, the elastic trachea model (with greater wall compliance) allowed a slightly larger volume window before a similarly dramatic pressure escalation occurred, whereas the rigid tube model (with no ability to expand) tended to reach high pressures abruptly as soon as the cuff contacted the wall. The key insight is that tracheal compliance significantly influences the pressure-volume (P-V) curve: less compliant airways yield much steeper P-V slopes and thus require especially careful inflation to avoid overshooting safe pressures.
+Cuff design also played a pivotal role in cuff performance. Tapered cuffs achieved an effective seal at lower inflation volumes compared to conventional cylindrical cuffs, reaching the target safe pressure (~20-25 cmH₂O) with less air. Clinically, this suggests that tapered high-volume cuffs conform to the tracheal wall more efficiently, needing less inflation to obturate the airway. Such behavior can be beneficial in that it reduces the initial volume (and pressure) required for an adequate seal, potentially lowering the risk of unnecessary overinflation. Our results are consistent with prior reports that tapered cuff tubes can form a seal at lower cuff pressures than cylindrical designs.20 However, “less volume to seal” does not eliminate the risk of injury from overinflation, it simply shifts the pressure-volume curve. In our tests, if a tapered cuff was inflated beyond the minimal sealing volume, its pressure still rose quickly and could exceed safe thresholds, though the critical volume at which this occurred was smaller. This finding reinforces that regardless of cuff shape and varying cuff size, even when the internal tube diameter is identical, vigilant monitoring of cuff pressure is required rather than relying solely on pilot‐balloon palpation or default inflation volumes32129. A tapered cuff may provide a modest safety buffer; for example, a better seal at lower baseline pressure and smaller pressure changes with certain external stresses, but our results confirm that it too can generate excessive pressures if overinflated or if the tracheal wall cannot accommodate further expansion20,27,28. 
+Another notable aspect of this study is the mathematical characterization of the cuff’s pressure-volume behavior. We found that a third-order polynomial function provided a superior fit for the high-pressure segment of the P-V curve compared to a simple power-law model. In practical terms, this means the relationship between added volume and resulting pressure is not a fixed exponential ratio but rather has a more complex curvature, particularly as the cuff becomes tightly constrained by the tracheal wall. The polynomial model captured the abrupt upswing in pressure that occurs as the cuff approaches the limits of the tracheal space, whereas the power-law model tended to underestimate these late-phase pressure surges. This insight supports the concept that cuff inflation dynamics involve multiple phases - an initial compliant phase followed by a sharply rising phase once the cuff and trachea walls are in close apposition. It also explains why small volume increments can be benign early in inflation but hazardous later on.22 Standard in vitro testing or modeling that assumes a simple volume-pressure relationship may fail to predict these dangerous spikes, underscoring the need for cautious, stepwise inflation and continuous pressure monitoring in practice23. By appreciating the nonlinear and compliance-dependent nature of ETT cuff dynamics demonstrated in this study, practitioners and researchers can better tailor cuff inflation practices to maintain airway security while minimizing the risk of mucosal damage.
+From a clinical perspective, our results underline several important points for airway management. Pressures exceeding 30 cmH₂O can rapidly compromise tracheal mucosal blood flow and have been linked to tissue damage when sustained4. Our data illustrate how easily such high pressures may be reached if cuff volume is not carefully titrated, reinforcing the importance of using the minimum effective cuff volume (or pressure) to achieve a seal and of keeping cuff pressures below ~30 cmH₂O21. Across the three airway models, rigid, elastic, and cadaveric, the margin between a “safe” 20 cmH₂O and 30 cmH₂O could be as small as 0.2-0.3 mL of added air. Because syringes or manual estimates often exceed such small increments, there is a real risk of inadvertently applying unsafe pressures17,24.  In practice, this means routine use of cuff pressure manometers and adherence to minimal occlusive volume techniques, since “just a bit more air” in an already inflated cuff can inadvertently cause a dramatic pressure rise. Additionally, the pronounced influence of tracheal compliance suggests that individual patient factors (such as tracheal stiffness or external compression by neck surgical retractors) will significantly affect cuff pressures. An inflation that results in 20 cmH₂O in one patient might produce far higher pressure in another with a stiffer airway or narrower tracheal diameter, even for the same added volume of air13. Bench tests using rigid airway models likely underestimate these patient-specific differences, so clinicians should be especially vigilant and consider continuous pressure monitoring in situations of reduced or altered airway compliance, even if initial cuff pressures appear acceptable14,23,25. Moreover, simulation-based airway models, while useful for training, often lack the fidelity to predict real-world pressure-volume dynamics, particularly in edge cases23,25,26.
+There are limitations to this study. First, though the cadaveric trachea more closely approximates actual tissue anatomy and stiffness than do synthetic models, it cannot replicate living physiology such as mucosal blood flow or reactive edema30. Second, we did not track changes in cuff pressure or tracheal compliance over time. Gradual tracheal dilation in cadavers or evolving edema in living tissue could alter compliance, but these dynamics were not captured here.  Third, we did not evaluate long‐term effects of sustained cuff pressures on tissue integrity; future studies could investigate extended inflation and perfusion in ex vivo or in vivo designs. Despite these limitations, the trends observed provide valuable guidance for clinicians about how cuff design and patient anatomy interact. Additional research might focus on real‐time cuff monitoring during patient maneuvers, e.g., head rotation, sedation changes, or mechanical ventilation adjustments, that can inadvertently shift cuff volumes. Investigations into next‐generation cuffs (e.g., advanced materials or tapered shapes) may also clarify whether they mitigate the steep pressure jumps reported here, ultimately guiding safer design or recommended inflation strategies12.
+Conclusions
+This study demonstrates that ETT cuff pressure-volume behavior is highly sensitive to both airway compliance and cuff design. In the cadaveric trachea, where compliance is lowest, cuff pressure escalated sharply with as little as 0.25 mL of added volume, leaving a narrow margin between sealing and overinflation. Tapered cuffs reached safe pressures with lower volumes than cylindrical cuffs, but all designs exhibited steep pressure increases beyond the sealing point. Polynomial models best captured these nonlinear dynamics. Clinically, these findings emphasize the importance of cuff pressure monitoring and caution against using fixed inflation volumes. Safe airway management requires an appreciation of how small volume adjustments can disproportionately affect cuff pressure, especially in less compliant airways.
+
+References
+1.	Hong S, Wu X, Feng H, et al. Risk factors for patients with tracheal stenosis: a systematic review and meta-analysis. J Int Med Res. 2024;52(9):03000605241275884. doi:10.1177/03000605241275884
+2.	Sole ML, Su X, Talbert S, et al. Evaluation of an intervention to maintain endotracheal tube cuff pressure within therapeutic range. Am J Crit Care Off Publ Am Assoc Crit-Care Nurses. 2011;20(2):109-117; quiz 118. doi:10.4037/ajcc2011661
+3.	Liu J, Zhang X, Gong W, et al. Correlations between controlled endotracheal tube cuff pressure and postprocedural complications: a multicenter study. Anesth Analg. 2010;111(5):1133-1137. doi:10.1213/ANE.0b013e3181f2ecc7
+4.	Mu G, Wang F, Li Q, Yu X, Lu B. Reevaluating 30 cmH2O endotracheal tube cuff pressure: risks of airway mucosal damage during prolonged mechanical ventilation. Front Med. 2024;11:1468310. doi:10.3389/fmed.2024.1468310
+5.	Seegobin RD, van Hasselt GL. Endotracheal cuff pressure and tracheal mucosal blood flow: endoscopic study of effects of four large volume cuffs. Br Med J Clin Res Ed. 1984;288(6422):965-968.
+6.	Bolzan DW, Gomes WJ, Faresin SM, de Camargo Carvalho AC, De Paola ÂAV, Guizilini S. Volume-Time Curve: An Alternative for Endotracheal Tube Cuff Management. Respir Care. 2012;57(12):2039-2044. doi:10.4187/respcare.01812
+7.	Nseir S, Zerimech F, Fournier C, et al. Continuous control of tracheal cuff pressure and microaspiration of gastric contents in critically ill patients. Am J Respir Crit Care Med. 2011;184(9):1041-1047. doi:10.1164/rccm.201104-0630OC
+8.	Dat VQ, Minh Yen L, Thi Loan H, et al. Effectiveness of Continuous Endotracheal Cuff Pressure Control for the Prevention of Ventilator-Associated Respiratory Infections: An Open-Label Randomized, Controlled Trial. Clin Infect Dis Off Publ Infect Dis Soc Am. 2022;74(10):1795-1803. doi:10.1093/cid/ciab724
+9.	Negro MSD, Barreto G, Antonelli RQ, et al. Effectiveness of the endotracheal tube cuff on the trachea: physical and mechanical aspects. Rev Bras Cir Cardiovasc Órgão Of Soc Bras Cir Cardiovasc. 2014;29(4):552-558. doi:10.5935/1678-9741.20140096
+10.	Blot SI, Poelaert J, Kollef M. How to avoid microaspiration? A key element for the prevention of ventilator-associated pneumonia in intubated ICU patients. BMC Infect Dis. 2014;14(1):119. doi:10.1186/1471-2334-14-119
+11.	Blot SI, Rello J, Koulenti D. The value of polyurethane-cuffed endotracheal tubes to reduce microaspiration and intubation-related pneumonia: a systematic review of laboratory and clinical studies. Crit Care Lond Engl. 2016;20(1):203. doi:10.1186/s13054-016-1380-8
+12.	Mahmoodpoor A, Hamishehkar H, Hamidi M, et al. A prospective randomized trial of tapered-cuff endotracheal tubes with intermittent subglottic suctioning in preventing ventilator-associated pneumonia in critically ill patients. J Crit Care. 2017;38:152-156. doi:10.1016/j.jcrc.2016.11.007
+13.	Lichtenthal P, Borg U. Endotracheal cuff pressure: role of tracheal size and cuff volume. Crit Care. 2011;15(Suppl 1):P147. doi:10.1186/cc9567
+14.	Rozycki SK, Dixon FP, Yopp MA, Maxvold NJ, Rubin BK. Endotracheal Tube Seal and Suction Performance in a Novel Biorealistic Tracheal Model. Respir Care. 2015;60(8):1113-1119. doi:10.4187/respcare.03799
+15.	Dave MH, Frotzler A, Spielmann N, Madjdpour C, Weiss M. Effect of tracheal tube cuff shape on fluid leakage across the cuff: an in vitro study. Br J Anaesth. 2010;105(4):538-543. doi:10.1093/bja/aeq202
+16.	Bernhard WN, Yost L, Joynes D, Cothalis S, Turndorf H. Intracuff pressures in endotracheal and tracheostomy tubes. Related cuff physical characteristics. Chest. 1985;87(6):720-725. doi:10.1378/chest.87.6.720
+17.	Bolzan DW, Gomes WJ, Peixoto TCA, et al. Clinical Use of the Volume-Time Curve for Endotracheal Tube Cuff Management. Respir Care. 2014;59(11):1628-1635. doi:10.4187/respcare.02683
+18.	Carhart E, Stuck LH, Salzman JG. Achieving a Safe Endotracheal Tube Cuff Pressure in the Prehospital Setting: Is It Time to Revise the Standard Cuff Inflation Practice? Prehosp Emerg Care. 2016;20(2):273-277. doi:10.3109/10903127.2015.1061626
+19.	Stewart SL, Secrest JA, Norwood BR, Zachary R. A comparison of endotracheal tube cuff pressures using estimation techniques and direct intracuff measurement. AANA J. 2003;71(6):443-447.
+20.	Li YS, Tan ECH, Tsai YJ, et al. A Tapered Cuff Tracheal Tube Decreases the Need for Cuff Pressure Adjustment After Surgical Retraction During Anterior Cervical Spine Surgery: A Randomized Controlled, Double-Blind Trial. Front Med. 2022;9. doi:10.3389/fmed.2022.920726
+21.	Zhang YN, Shi HY, Shen WQ, et al. Effect of varying cuff sizes with identical inner diameter on endotracheal intubation in critically ill adults: A sealed tracheal controlled trial. Medicine (Baltimore). 2024;103(24):e38326. doi:10.1097/MD.0000000000038326
+22.	Hoffman RJ, Sturmann K, Dueffer H, Kilpela K, Howell A, Hahn I. 87: Do Endotracheal Tube Cuff Pressure and Volume Have a Linear or Nonlinear Relationship? Ann Emerg Med. 2006;48(4):27. doi:10.1016/j.annemergmed.2006.07.535
+23.	McGaghie WC, Issenberg SB, Petrusa ER, Scalese RJ. A critical review of simulation-based medical education research: 2003-2009. Med Educ. 2010;44(1):50-63. doi:10.1111/j.1365-2923.2009.03547.x
+24.	Hoffman RJ, Dahlen JR, Lipovic D, Stürmann KM. Linear Correlation of Endotracheal Tube Cuff Pressure and Volume. West J Emerg Med. 2009;10(3):137-139.
+25.	Cooper JB, Taqueti VR. A brief history of the development of mannequin simulators for clinical education and training. Qual Saf Health Care. 2004;13 Suppl 1(Suppl 1):i11-18. doi:10.1136/qhc.13.suppl_1.i11
+26.	Lau ACW, Lam SM, Yan WW. Benchtop study of leakages across the Portex, TaperGuard, and Microcuff endotracheal tubes under simulated clinical conditions. Hong Kong Med J Xianggang Yi Xue Za Zhi. 2014;20(1):7-15. doi:10.12809/hkmj133930
+27.	Jaillette E, Girault C, Brunin G, et al. Impact of tapered-cuff tracheal tube on microaspiration of gastric contents in intubated critically ill patients: a multicenter cluster-randomized cross-over controlled trial. Intensive Care Med. 2017;43(11):1562-1571. doi:10.1007/s00134-017-4736-x
+28.	Mu G, Wang F, Li Q, Yu X, Lu B. Reevaluating 30 cmH2O endotracheal tube cuff pressure: risks of airway mucosal damage during prolonged mechanical ventilation. Front Med. 2024;11:1468310. doi:10.3389/fmed.2024.1468310
+29.	Kim S. Comparison of the cuff pressures of a TaperGuard endotracheal tube during ipsilateral and contralateral rotation of the head. Medicine (Baltimore). 2018;97(42):e12702. doi:10.1097/MD.0000000000012702
+30.	Seifert LB, Schnurr B, Herrera-Vizcaino C, et al. 3D-printed patient individualised models vs cadaveric models in an undergraduate oral and maxillofacial surgery curriculum: Comparison of student’s perceptions. Eur J Dent Educ Off J Assoc Dent Educ Eur. 2020;24(4):799-806. doi:10.1111/eje.12522
+
+
+Table 1. Ambu Rigid Model (7.0 mm Tubes)
+Tube Type	Polynomial Fit (cmH₂O)	R² / Adj R²	SEE (cmH₂O)	Power-Law Residuals (ΔP at 3.0 mL)	ΔV (20→30 cmH₂O)
+TaperGuard	1.15 + 5.33V - 3.22V² + 2.35V³	0.97 / 0.97	1.09	-4.2	0.46 mL
+Reinforced	0.99 + 2.81V - 0.31V² + 0.58V³	0.97 / 0.97	0.86	-3.8	0.50 mL
+ 
+Table 2. Trucorp Elastic Model (7.0 mm Tubes)
+Tube Type	Polynomial Fit (cmH₂O)	R² / Adj R²	SEE (cmH₂O)	Power-Law Error at 4.5 mL (cmH₂O)	ΔV (20→30 cmH₂O)
+TaperGuard	1.03 + 0.48V + 0.01V² + 0.33V³	0.97 / 0.97	1.04	-7.1	0.40 mL
+Sheridan	0.13 + 4.00V - 1.59V² + 0.26V³	0.98 / 0.98	0.27	-6.5	0.40 mL
+ 
+Table 3. Cadaver Model (7.0 mm Tubes)
+Tube Type	Polynomial Fit (cmH₂O)	R² / Adj R²	SEE (cmH₂O)	Power-Law Error at 3.0 mL (cmH₂O)	ΔV (20→30 cmH₂O)
+TaperGuard	0.62 + 25.87V + 8.40V² - 1.49V³	0.99 / 0.99	1.36	-12.1	0.25 mL
+Sheridan	1.78 + 9.95V + 6.35V²	0.99 / 0.99	1.11	-9.3	0.30 mL
+ 
+Table 4. Cross-Model Comparison of 7.0 mm Tubes
+Model	Tube Type	ΔV (20→30 cmH₂O)	Pressure Escalation Slope (cmH₂O/mL)
+Ambu Rigid	Taper Guard	0.46 mL	21.7
+	Sheridan	0.50 mL	20
+Trucorp Elastic	Taper Guard	0.40 mL	25
+	Sheridan	0.40 mL	25
+Cadaver	Taper Guard	0.25 mL*	40.0*
+	Sheridan	0.30 mL*	33.3*
+*p < 0.01 vs. synthetic models.
+
+ 
+
+
+
+Figures:
+ 
+Figure 1: Representative example of pressure-volume curves in the standard 7.0 size TaperGuard HVLP ETTs
+
+  
+Figure 2: Representative example of pressure-volume curves in the standard 7.0 size Sheridan Reinforced HVLP ETTs 
+
+￼
+Figure 3: Cross Model Comparison of Volume and Pressure Between 6.0 and 8.0 TaperGuard HVLP ETTs
+￼
+Figure 4: Cross Model Comparison of Volume and Pressure Between 6.0 and 8.0 Sheridan Reinforced HVLP ETTs
+Table 5. Supplementary Table, full best fit dataset
+Airway Model	Tube Type/Size	Trial Number	Best fit Model	R²/Adj R²	Model Formula	SEE	Simplest formula with high accuracy
+P(V)	R²/Adj R²	Model Formula	SEE	Volume at P(V)=20 (mL)	Volume at P(V)=30 (mL)	ΔV (20→30 cmH₂O) (mL)
+Rigid Airway	Taper Guard 6.0 	1	Cubic	0.998 / 0.998	P(V)=2.839 -7.632V +18.218V² -1.791V³	1.854	Power	0.991 / 0.990	ln(P(V)) = 16.809 +1.414ln(V)	0.261	1.37	1.65	0.28
+	Taper Guard 6.0 	2	Cubic	0.998 / 0.998	P(V)=3.506 -15.331V +25.318V² -3.250V³	1.875	Power	0.985 / 0.984	ln(P(V)) = 16.180 +1.423ln(V)	0.337*	1.4	1.62	0.22
+	Taper Guard 6.0 	3	Cubic	0.997 / 0.997	P(V)=3.274 -10.381V +17.555V² -1.718V³	2.014	Power	0.986 / 0.985	ln(P(V)) = 14.275 +1.393ln(V)	0.319*	1.45	1.71	0.26
+	Taper Guard 6.5	1	Cubic	0.998 / 0.998	P(V)=1.198 +5.309V -6.206V² +3.065V³	0.922	Power	0.941 / 0.937	ln(P(V)) = 6.454 +1.259ln(V)	0.612*	2.88	3.5	0.62
+	Taper Guard 6.5	2	Cubic	0.990 / 0.988	P(V)=1.797 +1.622V -2.296V² +2.253V³	2.315	Power	0.947 / 0.944	ln(P(V)) = 7.012 +1.274ln(V)	0.583*	2.33	3	0.67
+	Taper Guard 6.5	3	Cubic	0.998 / 0.997	P(V)=1.385 +4.851V -6.081V² +3.155V³	1.13	Power	0.938 / 0.934	ln(P(V)) = 6.645 +1.264ln(V)	0.629*	2.67	3.2	0.53
+	Taper Guard 7.0 	1	Cubic	0.998 / 0.998	P(V)=1.151 +5.325V -3.224V² +2.347V³	1.087	Power	0.973 / 0.972	ln(P(V)) = 8.762 +1.302ln(V)	0.416*	2.27	2.73	0.46
+	Taper Guard 7.0 	2	Cubic	0.997 / 0.996	P(V)=1.874 +1.065V -0.255V² +1.954V³	1.464	Power	0.965 / 0.963	ln(P(V)) = 8.719 +1.310ln(V)	0.480*	2.4	2.9	0.5
+	Taper Guard 7.0 	3	Cubic	0.995 / 0.994	P(V)=2.431 -0.828V +0.958V² +1.710V³	1.902	Power	0.961 / 0.959	ln(P(V)) = 8.624 +1.302ln(V)	0.509*	2.53	2.97	0.44
+	Taper Guard 7.5	1	Cubic	0.998 / 0.997	P(V)=0.415 +11.340V -11.461V² +3.817V³	0.842	Power	0.940 / 0.936	ln(P(V)) = 5.707 +1.212ln(V)	0.593*	2.4	3.1	0.7
+	Taper Guard 7.5	2	Cubic	0.997 / 0.997	P(V)=0.339 +11.002V -10.980V² +3.536V³	0.825	Power	0.937 / 0.933	ln(P(V)) = 5.159 +1.193ln(V)	0.601*	2.37	3	0.63
+	Taper Guard 7.5	3	Cubic	0.997 / 0.997	P(V)=0.680 +9.819V -10.128V² +3.500V³	0.875	Power	0.937 / 0.933	ln(P(V)) = 5.576 +1.208ln(V)	0.608*	2.43	3.08	0.65
+	Taper Guard 8.0 	1	Quadratic	0.998 / 0.997	P(V)=3.277 -7.345V +9.633V²	1.441	Power	0.978 / 0.976	ln(P(V)) = 10.940 +1.354ln(V)	0.398*	1.8	2.1	0.3
+	Taper Guard 8.0 	2	Cubic	0.997 / 0.996	P(V)=2.436 -9.422V +19.137V² -2.290V³	2.089	Power	0.984 / 0.983	ln(P(V)) = 14.528 +1.402ln(V)	0.347*	1.71	2	0.29
+	Taper Guard 8.0 	3	Quadratic	0.998 / 0.997	P(V)=3.321 -8.407V +10.399V²	1.624	Power	0.973 / 0.971	ln(P(V)) = 11.038 +1.361ln(V)	0.438*	1.91	2.24	0.33
+	Reinforced 6.0 	1	Quadratic	0.985 / 0.983	P(V)=2.196 -2.899V +3.126V²	1.171	Power	0.967 / 0.965	ln(P(V)) = 4.529 +1.187ln(V)	0.426*	2.95	3.4	0.45
+	Reinforced 6.0 	2	Cubic	0.998 / 0.997	P(V)=0.001 +9.047V -6.357V² +2.040V³	0.561	Power	0.975 / 0.974	ln(P(V)) = 5.409 +1.206ln(V)	0.372*	2.8	3.2	0.4
+	Reinforced 6.0 	3	Cubic	0.996 / 0.996	P(V)=-0.146 + 10.574V -8.479V² +2.656V³	0.794	Power	0.969 / 0.967	ln(P(V)) = 5.392 + 1.209 ln(V)	0.416	2.73	3.1	0.37
+	Reinforced 6.5	1	Cubic	0.998 / 0.998	P(V)=0.200 + 8.506V -6.489V² +2.138V³	0.483	Power	0.970 / 0.968	ln(P(V)) = 5.219 + 1.200 ln(V)	0.41	2.67	3.17	0.5
+	Reinforced 6.5	2	Cubic	0.996 / 0.995	P(V)=-0.011 + 9.851V -7.916V² +2.526V³	0.828	Power	0.968 / 0.966	ln(P(V)) = 5.303 + 1.206 ln(V)	0.422	2.73	3.27	0.54
+	Reinforced 6.5	3	Cubic	0.998 / 0.998	P(V)=-0.058 +9.898V -7.805V² +2.608V³	0.572	Power	0.972 / 0.970	ln(P(V)) = 5.741 +1.225 ln(V)	0.405	2.8	3.4	0.6
+	Reinforced 7.0 	1	Cubic	0.992 / 0.990	P(V)=0.988 + 2.813V -0.306V² + 0.577V³	0.864	Power*	0.975 / 0.974	ln(P(V)) = 5.193 + 1.197 ln(V)	0.37	3	3.5	0.5
+	Reinforced 7.0 	2	Cubic	0.995 / 0.993	P(V)=0.154 +7.475V -4.281V² +1.624V³	0.948	Power*	0.980 / 0.978	ln(P(V)) = 5.944 +1.228 ln(V)	0.343	3.1	3.65	0.55
+	Reinforced 7.0 	3	Cubic	0.997 / 0.997	P(V)=0.389 + 6.205V -3.148V² +1.212V³	0.545	Power	0.979 / 0.978	ln(P(V)) = 5.420 + 1.204 ln(V)	0.343	3	3.5	0.5
+	Reinforced 7.5	1	Cubic	0.998 / 0.998	P(V)=0.260 + 6.394V -1.961V² +1.274V³	0.705	Power*	0.987 / 0.986	ln(P(V)) = 7.385 +1.275 ln(V)	0.284	2.63	3.17	0.54
+	Reinforced 7.5	2	Cubic	0.999/0.998	P(V)=-0.051 +8.307V -4.218V² +1.975V³	0.689	Power	0.985/0.984	ln(P(V)) = 7.617 +1.286ln(V)	0.312*	2.8	3.33	0.53
+	Reinforced 7.5	3	Cubic	0.998 / 0.998	P(V)=-0.174 + 8.617V -4.013V² +1.981V³	0.838	Power*	0.986 / 0.985	ln(P(V)) = 8.049 + 1.299 ln(V)	0.304	2.73	3.27	0.54
+	Reinforced 8.0 	1	Cubic	0.995 / 0.994	P(V)=-0.380 +10.154V -5.886V² +2.004V³	1.001	Power*	0.985 / 0.984	ln(P(V)) = 6.607 +1.249 ln(V)	0.302	2.43	3	0.57
+	Reinforced 8.0 	2	Cubic	0.997 / 0.996	P(V)=0.254 +7.307V -4.211V² +2.246V³	1.242	Power	0.981 / 0.979	ln(P(V)) = 7.835 +1.298 ln(V)	0.353	2.67	3.33	0.66
+	Reinforced 8.0 	3	Cubic	0.998 / 0.997	P(V)=1.089 + 1.720V +1.141V² +1.134V³	1.074	Power	0.979 / 0.978	ln(P(V)) = 8.080 + 1.308 ln(V)	0.367	2.53	3.17	0.64
+Elastic Airway	Taper Guard 6.0 	1	Cubic	0.991/0.990	P(V)=2.627 -2.403V -0.600V² +0.561V³	3.144	Power	0.924/0.920	ln(P(V)) = 4.027 +1.258ln(V)	0.706*	4.13	4.47	0.34
+	Taper Guard 6.0 	2	Quadratic	0.991 / 0.990	P(V)=3.442 -11.818V +4.899V²	3.687	Power	0.946 / 0.943	ln(P(V)) = 5.632 +1.316ln(V)	0.613*	3.89	4.24	0.35
+	Taper Guard 6.0 	3	Quadratic	0.991 / 0.990	P(V)=5.097 -13.745V +4.937V²	3.491	Power	0.941 / 0.938	ln(P(V)) = 5.018 +1.298ln(V)	0.635*	3.94	4.3	0.36
+	Taper Guard 6.5	1	Quadratic	0.992 / 0.991	P(V)=4.198 -8.703V +3.500V²	2.508	Power	0.969 / 0.968	ln(P(V)) = 4.802 +1.269ln(V)	0.440*	4	4.4	0.4
+	Taper Guard 6.5	2	Cubic	0.996 / 0.996	P(V)=1.608 -2.241V +0.853V² +0.286V³	1.804	Power	0.967 / 0.965	ln(P(V)) = 4.717 +1.274ln(V)	0.462*	3.86	4.2	0.34
+	Taper Guard 6.5	3	Cubic	0.997 / 0.997	P(V)=0.972 +1.341V -1.257V² +0.480V³	1.308	Power	0.953 / 0.951	ln(P(V)) = 3.707 +1.239ln(V)	0.536*	3.75	4.12	0.37
+	Taper Guard 7.0 	1	Cubic	0.999 / 0.998	P(V)=1.030 +0.476V +0.013V² +0.334V³	1.036	Power	0.974 / 0.973	ln(P(V)) = 4.814 +1.266ln(V)	0.403*	3.95	4.35	0.4
+	Taper Guard 7.0 	2	Cubic	0.997 / 0.997	P(V)=1.533 -3.010V +1.345V² +0.242V³	1.576	Power	0.963 / 0.961	ln(P(V)) = 4.882 +1.283ln(V)	0.490*	3.91	4.28	0.37
+	Taper Guard 7.0 	3	Cubic	0.998 / 0.997	P(V)=1.215 -0.110V -0.576V² +0.454V³	1.426	Power	0.954 / 0.951	ln(P(V)) = 4.191 +1.261ln(V)	0.544*	3.88	4.24	0.36
+	Taper Guard 7.5	1	Cubic	0.998 / 0.997	P(V)=0.347 +5.073V -3.228V² +0.657V³	1.054	Power	0.939 / 0.936	ln(P(V)) = 2.916 +1.199ln(V)	0.595*	4.22	4.62	0.4
+	Taper Guard 7.5	2	Cubic	0.995 / 0.995	P(V)=0.788 +3.206V -2.423V² +0.598V³	1.564	Power	0.942 / 0.938	ln(P(V)) = 3.195 +1.216ln(V)	0.591*	4.15	4.55	0.4
+	Taper Guard 7.5	3	Cubic	0.996 / 0.995	P(V)=0.811 +3.417V -2.690V² +0.640V³	1.493	Power	0.931 / 0.927	ln(P(V)) = 3.077 +1.213ln(V)	0.645*	4.18	4.58	0.4
+	Taper Guard 8.0 	1	Cubic	0.999 / 0.999	P(V)=-0.131 +6.733V -3.771V² +0.663V³	0.512	Power	0.942 / 0.939	ln(P(V)) = 2.588 +1.175ln(V)	0.568*	4.5	4.92	0.42
+	Taper Guard 8.0 	2	Cubic	0.997 / 0.997	P(V)=0.294 +4.996V -3.061V² +0.629V³	1.067	Power	0.946 / 0.943	ln(P(V)) = 2.992 +1.202ln(V)	0.559*	4.45	4.88	0.43
+	Taper Guard 8.0 	3	Cubic	0.998 / 0.997	P(V)=0.438 +4.535V -2.969V² +0.646V³	1.076	Power	0.943 / 0.940	ln(P(V)) = 3.128 +1.211ln(V)	0.582*	4.48	4.9	0.42
+	Reinforced 6.0 	1	Cubic	0.997 / 0.996	P(V)=-0.172 +7.031V -3.996V² +0.734V³	1.218	Power	0.948 / 0.945	ln(P(V)) = 2.986 +1.200ln(V)	0.550*	4.73	5.12	0.39
+	Reinforced 6.0 	2	Cubic	0.996 / 0.995	P(V)=-0.717 +8.693V -4.502V² +0.753V³	1.203	Power	0.955 / 0.952	ln(P(V)) = 2.881 +1.191ln(V)	0.506*	4.65	5.05	0.4
+	Reinforced 6.0 	3	Cubic	0.996 / 0.995	P(V)=-0.778 +9.271V -4.848V² +0.803V³	1.263	Power	0.954 / 0.952	ln(P(V)) = 2.914 +1.193ln(V)	0.511*	4.68	5.08	0.4
+	Reinforced 6.5	1	Cubic	0.988 / 0.985	P(V)=-0.388 +7.649V -3.414V² +0.465V³	0.876	Power	0.966 / 0.964	ln(P(V)) = 1.835 +1.088ln(V)	0.399*	4.8	5.2	0.4
+	Reinforced 6.5	2	Cubic	0.995 / 0.994	P(V)=-0.745 +8.781V -4.311V² +0.620V³	0.763	Power	0.947 / 0.944	ln(P(V)) = 1.889 +1.111ln(V)	0.514*	4.75	5.15	0.4
+	Reinforced 6.5	3	Cubic	0.996 / 0.995	P(V)=-0.673 +8.841V -4.519V² +0.676V³	0.822	Power	0.941 / 0.938	ln(P(V)) = 2.045 +1.129ln(V)	0.551*	4.78	5.18	0.4
+	Reinforced 7.0 	1	Cubic	0.999 / 0.998	P(V)=0.129 +4.003V -1.589V² +0.257V³	0.267	Power	0.980 / 0.979	ln(P(V)) = 1.982 +1.107ln(V)	0.306*	4.95	5.35	0.4
+	Reinforced 7.0 	2	Cubic	0.998 / 0.997	P(V)=0.165 +3.780V -1.644V² +0.264V³	0.347	Power	0.971 / 0.970	ln(P(V)) = 1.742 +1.091ln(V)	0.367*	4.9	5.3	0.4
+	Reinforced 7.0 	3	Cubic	0.997 / 0.996	P(V)=0.223 +3.891V -1.664V² +0.268V³	0.401	Power	0.973 / 0.971	ln(P(V)) = 1.835 +1.096ln(V)	0.359*	4.92	5.32	0.4
+	Reinforced 7.5	1	Cubic	0.999 / 0.999	P(V)=0.360 +3.886V -1.440V² +0.344V³	0.477	Power	0.981 / 0.980	ln(P(V)) = 3.417 +1.200ln(V)	0.322*	5.1	5.5	0.4
+	Reinforced 7.5	2	Cubic	0.998 / 0.998	P(V)=-0.017 +5.429V -2.167V² +0.443V³	0.718	Power	0.981 / 0.979	ln(P(V)) = 3.565 +1.208ln(V)	0.332*	5.05	5.45	0.4
+	Reinforced 7.5	3	Cubic	0.998 / 0.997	P(V)=-0.200 +5.012V -2.147V² +0.436V³	0.816	Power	0.975 / 0.974	ln(P(V)) = 3.175 +1.199ln(V)	0.371*	5.08	5.48	0.4
+	Reinforced 8.0 	1	Cubic	0.999 / 0.999	P(V)=-0.092 + 5.972V -2.387V² +0.431V³	0.489	Power	0.983 / 0.982	ln(P(V)) = 3.213 + 1.187ln(V)	0.309*	5.25	5.65	0.4
+	Reinforced 8.0 	2	Cubic	0.999 / 0.999	P(V)=-0.069 + 6.100V -2.576V² +0.464V³	0.422	Power	0.979 / 0.978	ln(P(V)) = 3.177 + 1.187ln(V)	0.337*	5.2	5.6	0.4
+	Reinforced 8.0 	3	Cubic	0.999 / 0.999	P(V)=-0.126 + 5.082V -2.238V² +0.412V³	0.451	Power	0.975 / 0.974	ln(P(V)) = 2.746 + 1.172ln(V)	0.365*	5.22	5.62	0.4
+Cadaver	Taper Guard 6.0 	1	Cubic	1.000 / 0.999	P(V)=0.427 + 28.986V +9.790V² -1.468V³	0.931	Power	0.991 / 0.990	ln(P(V)) = 36.280 +1.469ln(V)	0.294*	0.6	0.78	0.18
+	Taper Guard 6.0 	2	Cubic	1.000 / 0.999	P(V)=-0.636 +25.445V +14.661V² -2.770V³	0.977	Power	0.997 / 0.997	ln(P(V)) = 34.386 +1.484ln(V)	0.169*	0.56	0.72	0.16
+	Taper Guard 6.0 	3	Cubic	1.000 / 1.000	P(V)=-0.003 + 26.300V +12.220V² -1.871V³	0.661	Power	0.994 / 0.994	ln(P(V)) = 35.352 +1.474ln(V)	0.239*	0.58	0.75	0.17
+	Taper Guard 6.5	1	Cubic	0.999 / 0.999	P(V)=0.411 +26.614V +9.635V² -1.341V³	1.184	Power	0.992 / 0.992	ln(P(V)) = 34.159 +1.464ln(V)	0.268*	0.65	0.85	0.2
+	Taper Guard 6.5	2	Quadratic	0.999 / 0.999	P(V)=0.106 + 32.890V +4.423V²	1.279	Power	0.989 / 0.988	ln(P(V)) = 36.042 +1.463ln(V)	0.327*	0.7	0.9	0.2
+	Taper Guard 6.5	3	Cubic	0.999 / 0.999	P(V)=-0.172 +21.856V +14.652V² -2.376V³	1.184	Power	0.997 / 0.997	ln(P(V)) = 32.715 +1.478ln(V)	0.158*	0.68	0.88	0.2
+	Taper Guard 7.0 	1	Cubic	0.999 / 0.998	P(V)=0.622 +25.866V +8.403V² -1.491V³	1.364	Power	0.989 / 0.988	ln(P(V)) = 32.037 +1.446ln(V)	0.321*	0.75	1	0.25
+	Taper Guard 7.0 	2	Cubic	0.999 / 0.999	P(V)=-0.393 +20.556V +14.570V² -2.746V³	1.052	Power	0.997 / 0.997	ln(P(V)) = 30.457 +1.467ln(V)	0.160*	0.8	1.05	0.25
+	Taper Guard 7.0 	3	Cubic	0.999 / 0.999	P(V)=-0.356 +23.026V +11.909V² -1.906V³	1.055	Power	0.996 / 0.995	ln(P(V)) = 31.427 +1.465ln(V)	0.202*	0.78	1.03	0.25
+	Taper Guard 7.5	1	Cubic	0.999 / 0.998	P(V)=-0.139 +28.323V +8.096V² -1.461V³	1.359	Power	0.992 / 0.991	ln(P(V)) = 32.820 +1.457ln(V)	0.279*	0.85	1.1	0.25
+	Taper Guard 7.5	2	Cubic	0.999 / 0.999	P(V)=-0.385 +21.917V +10.248V² -1.317V³	1.211	Power	0.997 / 0.997	ln(P(V)) = 29.486 +1.461ln(V)	0.165*	0.9	1.15	0.25
+	Taper Guard 7.5	3	Cubic	0.999 / 0.999	P(V)=0.076 +18.014V +17.823V² -3.620V³	1.105	Power	0.996 / 0.996	ln(P(V)) = 31.058 +1.465ln(V)	0.196*	0.88	1.13	0.25
+	Taper Guard 8.0 	1	Cubic	0.999 / 0.999	P(V)=0.835 +37.957V +0.634V² +0.267V³	1.054	Power	0.982 / 0.981	ln(P(V)) = 37.254 +1.453ln(V)	0.408*	0.95	1.2	0.25
+	Taper Guard 8.0 	2	Cubic	0.999 / 0.999	P(V)=-0.718 +34.868V +7.493V² -1.752V³	0.982	Power	0.992 / 0.991	ln(P(V)) = 36.363 +1.471ln(V)	0.281*	0.98	1.25	0.27
+	Taper Guard 8.0 	3	Cubic	0.999 / 0.999	P(V)=0.746 +27.200V +12.983V² -2.639V³	1.256	Power	0.989 / 0.988	ln(P(V)) = 36.584 +1.465ln(V)	0.324*	0.97	1.23	0.26
+	Reinforced 6.0 	1	Quadratic	0.994 / 0.993	P(V)=1.169 +7.893V +6.043V²	1.733	Power	0.991 / 0.990	ln(P(V)) = 16.844 +1.372ln(V)	0.273*	1.32	1.6	0.28
+	Reinforced 6.0 	2	Quadratic	0.997 / 0.996	P(V)=0.707 +9.503V +5.682V²	1.295	Power	0.996 / 0.995	ln(P(V)) = 17.158 +1.385ln(V)	0.188*	1.4	1.68	0.28
+	Reinforced 6.0 	3	Quadratic	0.998 / 0.998	P(V)=1.156 +5.444V +7.623V²	1.045	Power	0.995 / 0.995	ln(P(V)) = 16.453 +1.384ln(V)	0.204*	1.37	1.65	0.28
+	Reinforced 6.5	1	Quadratic	0.998 / 0.997	P(V)=1.127 +5.741V +6.524V²	0.994	Power	0.995 / 0.995	ln(P(V)) = 15.318 +1.371ln(V)	0.200*	1.45	1.75	0.3
+	Reinforced 6.5	2	Quadratic	0.998 / 0.998	P(V)=0.861 +9.828V +6.077V²	0.93	Power	0.996 / 0.996	ln(P(V)) = 18.125 +1.392ln(V)	0.187*	1.5	1.8	0.3
+	Reinforced 6.5	3	Quadratic	0.997 / 0.996	P(V)=0.522 +8.698V +6.850V²	1.411	Power	0.993 / 0.993	ln(P(V)) = 17.712 +1.390ln(V)	0.240*	1.48	1.78	0.3
+	Reinforced 7.0 	1	Quadratic	0.998 / 0.998	P(V)=1.775 +9.947V +6.352V²	1.107	Power	0.989 / 0.989	ln(P(V)) = 19.904 +1.387ln(V)	0.301*	1.55	1.85	0.3
+	Reinforced 7.0 	2	Quadratic	0.998 / 0.998	P(V)=1.547 +8.502V +6.764V²	0.998	Power	0.992 / 0.992	ln(P(V)) = 18.751 +1.387ln(V)	0.259*	1.6	1.9	0.3
+	Reinforced 7.0 	3	Cubic	0.998 / 0.998	P(V)=0.364 +15.609V -2.785V² +2.461V³	0.977	Power	0.992 / 0.991	ln(P(V)) = 17.106 +1.374ln(V)	0.259*	1.58	1.88	0.3
+	Reinforced 7.5	1	Cubic	0.999 / 0.999	P(V)=0.401 +17.723V +8.347V² -1.142V³	0.725	Power	0.995 / 0.994	ln(P(V)) = 24.980 +1.429ln(V)	0.216*	1.65	1.95	0.3
+	Reinforced 7.5	2	Cubic	1.000 / 1.000	P(V)=0.174 +11.464V +9.860V² -1.270V³	0.414	Power	0.998 / 0.998	ln(P(V)) = 20.534 +1.418ln(V)	0.123*	1.7	2	0.3
+	Reinforced 7.5	3	Quadratic	0.999 / 0.999	P(V)=0.435 +17.349V +5.010V²	0.768	Power	0.992 / 0.991	ln(P(V)) = 23.231 +1.412ln(V)	0.265*	1.68	1.98	0.3
+	Reinforced 8.0 	1	Quadratic	0.997 / 0.997	P(V)=1.255 +14.735V +7.364V²	1.581	Power	0.988 / 0.987	ln(P(V)) = 24.959 +1.417ln(V)	0.332*	0.93	1.24	0.31
+	Reinforced 8.0 	2	Quadratic	0.998 / 0.997	P(V)=0.672 +14.659V +7.655V²	1.559	Power	0.991 / 0.990	ln(P(V)) = 24.448 +1.423ln(V)	0.284*	0.95	1.26	0.31
+	Reinforced 8.0 	3	Cubic	0.999 / 0.999	P(V)=1.190 +5.752V +15.920V² -1.991V³	0.926	Power	0.996 / 0.996	ln(P(V)) = 22.745 +1.430ln(V)	0.184*	0.97	1.28	0.31
+														
+
+
+"
+
+
+This needs to be formatted for laryngoscope, rules here: "1. SUBMISSION OF MANUSCRIPTS
+
+Authors should note that manuscript submission implies that the content has not been published or submitted for publication elsewhere except as a brief abstract in the proceedings of a scientific meeting or symposium.
+
+Once the submission materials have been prepared in accordance with the author guidelines, new submissions should be made online via the Research Exchange submission portal: https://wiley.atyponrex.com/journal/LARY
+
+You may check the status of your submission at any time by logging on to submission.wiley.com and clicking the "My Submissions" button. For technical help with the submission system, please review Wiley’s Research Exchange Author Help Documents or contact submissionhelp@wiley.com.
+
+The submission system will prompt the submitting author to use an ORCID iD (a unique author identifier) to help distinguish the work from that of other researchers. Click here to find out more.
+
+2. AIMS AND SCOPE
+
+The Laryngoscope has been the leading source of information on advances in the diagnosis and treatment of head and neck disorders for over 120 years. The Laryngoscope is the first choice among otolaryngologists for publication of their important findings and techniques.
+
+Each monthly issue of The Laryngoscope features peer-reviewed medical, clinical, and research contributions in general otolaryngology, allergy/rhinology, otology/neurotology, laryngology/broncho-esophagology, head and neck surgery, sleep medicine, pediatric otolaryngology, and facial plastics and reconstructive surgery. Contributions include papers and posters presented at the Annual and Section Meetings of the Triological Society, as well as independent papers, "How I Do It", "Triological Best Practice" articles, and systematic reviews.
+
+Theses authored by the Triological Society’s new Fellows as well as papers presented at meetings of the American Laryngological Association and American Broncho-Esophagological Association are published in either The Laryngoscope or Laryngoscope Investigative Otolaryngology.
+
+The Laryngoscope is owned by the American Laryngological Rhinological and Otological Society, Inc. aka The Triological Society, and is the official journal of the Society, The American Laryngological Association, and the American Broncho-Esophagological Association. The Journal is published by Wiley.
+
+3. MANUSCRIPT CATEGORIES AND REQUIREMENTS
+
+i.       Original Reports
+
+Word limit: 3,000 words (max), excluding abstract and references
+Abstract: Must be structured under the sub-headings: Objective(s), Methods, Results, Conclusion
+References: 75 references (max)
+Figures/Tables: Total of no more than 8 figures and tables
+Description: Original reports should present data that have not yet been published
+
+Original Reports should be formatted as follows:
+
+Abstract
+Keywords
+Level of Evidence
+Introduction
+Materials and Methods
+Results
+Discussion
+Conclusion
+References
+
+ii.       Systematic Reviews
+
+Systematic Reviews present clinical topics supported by significant recent literature and data sources. The review should answer a specific, hypothesis - based, research question. The literature and data sources should be explored in a thorough and comprehensive manner, preferably with the assistance of a librarian or other professional trained in the proper search of the medical literature.
+
+These systematic reviews should be focused and follow the standard format as delineated in the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analysis) document, or MOOSE (Meta-analyses Of Observational Studies in Epidemiology) guidelines. The PRISMA document(s) can be found at http://www.prisma-statement.org/. Please note that there are extensions for Individual patient data (IPD) and Network meta-analyses (NMA) that may be applicable depending on the type of data available and the comparisons being made. The explanation for MOOSE can be found at: http://www.consort-statement.org/Media/Default/Downloads/Other%20Instruments/MOOSE%20Statement%202000.pdf.
+
+Please note that there is a difference between a systematic review and meta-analysis. A systematic review is the manuscript type that includes the methods of literature search, critical appraisal, and synthesis of data from multiple selected studies to answer a research question, which preferably includes meta-analyses of quantitative data. A meta-analysis is the statistical method only (which may or may not be applied depending on the availability of appropriate data); it is not a manuscript type.
+
+In brief, Systematic Reviews should include the following:
+
+    Description of the focused research question, using the PICOS (Participant, Intervention, Comparison, Outcome, and Study design) criteria
+    Critical appraisal of prior reviews on the topic
+    Explicit description of the electronic search strategy and databases used (at least 3), including Mesh titles, dates of inclusion, and the names of those performing the search
+    Report of the results of the search, the studies screened, and the studies included
+    Explicit description of selection criteria for inclusion in the final review
+    State the primary outcome variable
+    Report the statistical methods used for data analysis and synthesis
+    Extract and report the key outcomes and findings from each study
+    Synthesize the data into a summary analysis, including forest plots if a meta-analysis is performed, and an analysis of heterogeneity
+    Perform a risk of bias analysis and discuss the risks of bias across studies. Please note that this is separate and distinct from the Levels of Evidence (https://www.cebm.ox.ac.uk/resources/levels-of-evidence)
+    Summarize the results of the data synthesis and analysis
+    Provide an overall interpretation of the results, in the context of the published literature
+    In order to confirm a submission contains all the required systematic review elements, authors must complete the following checklist. The completed checklist must then be uploaded with other manuscript files when completing submission.
+
+Abstract (250 words) with the headings: Objective, Data Sources, Review Methods, Results, and Conclusion
+Key Words
+Introduction
+Methods
+Results
+Discussion
+Acknowledgment (grants and research report)
+References
+
+Word count: 4000 words maximum (Introduction through Conclusion)
+Figures/Tables: No more than a total of 8 figures and tables. Must include a flow diagram and a table describing all included studies.
+Multi-paneled figures will be counted as multiple figures
+Tables with > 6 columns will be counted as multiple tables.
+
+iii.      Scoping Reviews
+
+Scoping Reviews present clinical or translational topics with emerging literature and data sources. They are a type of review that may be appropriate when there is insufficient data for a true systematic review. Scoping reviews do not address a specific, hypothesis – based research questions like systematic literature reviews do. The role of the scoping review is to identify gaps in knowledge, summarize the state of the current literature, clarify definitions/concepts, but not to make recommendations or conclusions that affect clinical care. A scoping review is not meant to serve as a shortened systematic review without data analysis.
+
+We recommend reading the following publication for more information about scoping reviews before submitting: Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Medical Research Methodology (2018) 18:143. https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-018-0611-x.pdf
+
+Authors should employ the PRISMA- Scoping Review guidelines.
+In order to confirm a submission contains all the required scoping review elements, authors must complete the following checklist. The completed checklist must then be uploaded with other manuscript files when completing submission.
+
+Abstract (250 words) with the headings: Objective, Data Sources, Review Methods, Results, and Conclusion
+Key Words
+Introduction
+Methods
+Results
+Discussion
+Acknowledgment (grants and research report)
+References
+
+Word count: 3000 words (introduction – conclusion)
+Figures/Tables: No more than a total of 8 figures and tables
+
+Multi-paneled figures will be counted as multiple figures
+Tables with > 6 columns will be counted as multiple tables.
+
+
+iv.       How I Do It
+
+All How I Do It manuscripts require a video to be uploaded with the submission. If you believe a video is not applicable to your manuscript, please contact the Editorial Office (thelaryngoscope@gmail.com) for approval. Please refer to the detailed video requirements below.
+
+Word count: 1,500 words (max)
+References: 5 references (max)
+Figures/Tables: No more than a total of 6 figures and tables
+Description: Provide a novel, substantive approach to an existing clinical practice
+
+How I Do It submissions should be formatted as follows:
+Keywords
+Introduction
+Methods
+Results
+Video - see Embedded Rich Media guidelines below
+Discussion
+References
+
+HIDI video instructions:
+
+The only video format accepted is MP4 and the submission must be under 5 minutes
+
+    The video should be able to stand alone without the viewer having to read the manuscript and should demonstrate all key points of a full surgical procedure/technique.
+    A title page is required which should include the title of procedure, author and institutional affiliation and should be at the beginning of the video.
+    Video submissions must be narrated in English.
+    For viewer orientation purposes please label all key landmarks prior to the start of the case and prior to each new step/maneuver/view.
+    Video should be edited for flow and transitions.
+    Indicate all sutures and instruments with settings.
+
+If the video contains patient footage, please follow the Human Studies and Subjectsinformation section which applies also to videos. 
+
+v.       Triological Society Best Practice
+
+Word count: 1,100 words (max)
+References: 5 (max)
+Table or Figure (recommended): 1 (max)
+Description: Manuscripts are concise reviews providing an answer to a pertinent clinical question. Manuscripts in this category are commissioned by invitation only. Please forward any topic proposals to the Managing Editor at thelaryngoscope@gmail.com. 
+
+Triological Society Best Practice manuscripts should be formatted as follows:
+
+Background: State the controversy succinctly.
+Literature Review: Recent published data addressing the question should be briefly reviewed.
+Best Practice Summary: One or two sentences summarizing the answer to the question based on current knowledge. Additionally, when appropriate, a sentence regarding a gap in knowledge or future direction of research may also be included.
+Level of Evidence: Summary of level of evidence of cited literature in 1–2 sentences
+
+vi.       Case Report
+
+Word count: 1,000 words (max)
+References: 5 (max)
+Figures/Tables: No more than a total of 5 figures and tables
+Description: Case reports should describe encounters with one or several patients with unique or unusual clinical situations and identify a clinical pearl/wisdom that could benefit future patients.
+
+Case Reports should be formatted as follows:
+
+Keywords
+Introduction
+Case Report
+Discussion
+Conclusion
+References
+
+vii.       Letter to the Editor
+
+Word count: 400 words (max)
+References: 1 (the reference of the manuscript being discussed + any supplementary references)
+Description: A letter should comment on previously published research in the Laryngoscope in which significant scientific controversy exists. A letter to the Editor deemed appropriate for publication will be submitted to the author(s) of the published article so they can provide comments.
+
+viii.       Rapid Communications
+
+Word Limit: 800 words
+Abstract/ References: Not Required
+Figures/Tables: 1 Figure or Table
+Description: A Rapid Communication is a short article, on a topic that is rapidly evolving. This article type is intended to convey important information that may not have yet fully developed into an evidence based study, but that merits expedited dissemination.
+
+Rapid Communications should be formatted as follows:
+
+Keywords
+Level of Evidence
+Introduction
+Discussion
+Conclusion
+
+ix.      Historical Review
+
+Word count: 3000 words 
+Figures/Tables: No more than a total of 8 figures and tables. Multi-paneled figures will be counted as multiple figures. Tables with > 6 columns will be counted as multiple tables. 
+Description: Synthesis from multiple sources emphasizing factual information.
+
+Historical Review should be formatted as follows:
+
+Abstract (250 words) with the headings: Objective, Data Sources, Review Methods, Results, and Conclusion
+Key Words
+Introduction
+Methods
+Results
+Discussion
+Acknowledgment (grants and research report)
+References
+
+x.       Invited Articles and Reviews
+
+The Journal may, at times, invite original research and reviews on specific topics. These topics would require broad coverage or unusual publication treatment. These invited works will be subject to standard peer-review. If accepted, the Editor-in-Chief of the Journal may choose to publish the article in print and online, or online only.
+
+4. PREPARING THE MANUSCRIPT FOR SUBMISSION
+
+Parts of the Manuscript
+
+The manuscript should be submitted in separate files: main text file; figures.
+
+i.      Title Page
+
+    Manuscript title
+    A short running title of 40 characters;
+    The full names of the authors and highest degrees;
+    The author's institutional affiliations where the work was conducted;
+    Funding and Conflict of Interests (see Funding and Conflicts of Interest);
+    A note indicating the corresponding author, including full contact details (postal codes, telephone and a valid e-mail; please note this will be published with the paper and that post-acceptance correspondence will be directed to this e-mail address)
+    Meeting information, if applicable (society name, city, state, country, and exact date the meeting was held);
+    Acknowledgments
+
+ii.      Abstract, Keywords, and Level of Evidence* (see Levels of Evidence)
+
+Title. The title should be short and informative, containing major keywords related to the content. The title should not contain abbreviations (see Wiley's best practice SEO tips).
+
+Authorship. For details on eligibility for author listing, please refer to the journal’s Authorship policy outlined in the Editorial Policies and Ethical Considerations section.
+
+Acknowledgments. Contributions from individuals who do not meet the criteria for authorship should be listed, with permission from the contributor, in an Acknowledgments section. Financial and material support should also be mentioned. Thanks to anonymous reviewers are not appropriate.
+
+Conflict of Interest Statement. Authors will be asked to provide a conflict of interest statement during the manuscript submission process. See ‘Conflict of Interest’ section in Editorial Policies and Ethical Considerations for details on what to include in this section. Authors should ensure they liaise with all co-authors to confirm agreement with the final statement.
+
+Abstract. Abstracts and keywords are required for some manuscript types. For details on manuscript types that require abstracts and/or keywords, as well as how to prepare them, please refer to the ‘Manuscript Types and Criteria’ section.
+
+Keywords. Please provide 3–5 keywords.
+
+Level of Evidence. For original reports and some systematic reviews.
+
+iii.       Main Text
+iv.       Data Reporting
+
+While important, a p value of <0.05 may describe statistical significance that does not translate into clinical significance. Please report effect size such as mean differences, odds ratios hazard ratios or regression coefficients to define how strongly associated a variable is with an outcome. Further, please report confidence intervals to define how precise the effect size results are.
+
+v.       References
+
+All references should be numbered consecutively in order of appearance and should be as complete as possible. In text citations should cite references in consecutive order using Arabic superscript numerals. For more information about AMA reference style, please see the AMA Manual of Style.
+
+Sample references follow:
+
+Journal article
+
+1. Alt JA1, Smith TL, Mace JC, Soler ZM. Sleep quality and disease severity in patients with chronic rhinosinusitis. Laryngoscope. 2013;123(10):2364-70.
+
+Book
+
+2. Sanna M, Devaiah AK, Kirtane MV, de Souza CE. Otology and Neurotology (Otolaryng- Head and Neck Surgery). New York: Thieme; 2013. 520 p.
+
+Please note that journal title abbreviations should conform to the practices of Index Medicus.
+
+Internet Document
+
+10. American Cancer Society. Cancer Facts & Figures 2003. http://www.cancer.org/downloads/STT/CAFF2003PWSecured.pdf. Accessed March 3, 2003.
+
+vi.        Tables
+
+Tables should be self-contained and complement, not duplicate, information contained in the text. They should be supplied as editable files, not pasted as images. Individuals tables longer than 3 pages should be included as supplemental material.
+
+vii.        Figure Legends
+
+Legends should be concise but comprehensive – the figure and its legend must be understandable without reference to the text. Include definitions of any symbols used and define/explain all abbreviations and units of measurement.
+
+viii.        Scattergram for Hearing Levels
+
+If your manuscript describes hearing levels, the journal requires that authors utilize the American Academy of Otolaryngology – Head and Neck Surgery minimal reporting standard for reporting audiometric data. While authors are welcome to interpret their data in any way they find interesting and informative, to facilitate comparison among studies, results must include the minimal data set in the standardized reporting format.
+
+ix.        Figures
+
+Although authors are encouraged to send the highest-quality figures possible, for peer-review purposes, a wide variety of formats, sizes, and resolutions are accepted. Click here for the basic figure requirements for figures submitted with manuscripts for initial peer review, as well as the more detailed post-acceptance figure requirements.
+
+Multi-paneled figures will be counted as multiple figures.
+
+Figures submitted in color may be reproduced in color online free of charge. Please note, however, that it is preferable that line figures (e.g. graphs and charts) are supplied in black and white so that they are legible if printed by a reader in black and white. If an author would prefer to have figures printed in color in hard copies of the journal, a fee will be charged by the Publisher.
+
+x.        Videos (not applicable for How I Do It articles)
+
+Videos must be in MP4 format and require a title page at the beginning which should include title, author, and institutional affiliation.  Narration is preferred.
+
+xi.       Additional Files
+
+Appendices
+
+Appendices are part of articles and are counted towards word, reference, and figure/table limits. They will be published after the references and are meant to include essential information that is referred to in the text of the article. For manuscript submissions, they should be supplied as separate files. The material is edited and typeset
+
+Supporting Information
+
+Supporting information are in addition to articles and do not count towards word, reference, and figure/table limits. Such material is published online only. This should be information that is not essential to the article, but provides greater depth and background. It is hosted online and appears without editing or typesetting. It may include tables, figures, videos, datasets, etc. Click here for Wiley’s FAQs on supporting information.
+
+Note: if data, scripts, or other artifacts used to generate the analyses presented in the manuscript are available via a publicly available data repository, authors should include a reference to the location of the material within their manuscript.
+
+General Style Points
+
+The following points provide general advice on formatting and style.
+
+    Manuscripts should be formatted according to the American Medical Association Manual of Style (10th edition).
+    Double space the manuscript (including references, figure legends, and tables) with minimum 1-inch margins.
+    Begin each table on a separate page.
+    Begin references on a separate page after acknowledgments.
+    The journal uses US-English spelling
+    Define abbreviations at first mention in text and in each table and figure.
+    State all measurements in metric units, and if desired, add English units in parentheses.
+
+Wiley Author Resources
+
+Manuscript Preparation Tips: Wiley has a range of resources for authors preparing manuscripts for submission available here. In particular, authors may benefit from referring to Wiley’s best practice tips on Writing for Search Engine Optimization.
+
+Editing Support. Translation Suppport. Formatting Support. Wiley Editing Services can greatly improve the chances of a manuscript being accepted. Offering expert help in English language editing, translation, manuscript formatting, and figure preparation, Wiley Editing Services ensures that the manuscript is ready for submission. Resource Identification Initiative
+
+The journal supports the Resource Identification Initiative, which aims to promote research resource identification, discovery, and reuse. This initiative, led by the Neuroscience Information Framework and the Oregon Health & Science University Library, provides unique identifiers for antibodies, model organisms, cell lines, and tools including software and databases. These IDs, called Research Resource Identifiers (RRIDs), are machine-readable and can be used to search for all papers where a particular resource was used and to increase access to critical data to help researchers identify suitable reagents and tools.
+
+Authors are asked, when applicable, to use RRIDs to cite the resources used in their research where applicable in the text, similar to a regular citation or Genbank Accession number. For antibodies, authors should include in the citation the vendor, catalogue number, and RRID both in the text upon first mention in the Methods section. For software tools and databases, please provide the name of the resource followed by the resource website, if available, and the RRID. For model organisms, the RRID alone is sufficient.
+
+Additionally, authors must include the RIIDs in the list of keywords associated with the manuscript.
+
+To Obtain Research Resource Identifiers (RRIDs):
+
+    Use the Resource Identification Portal, created by the Resource Identification Initiative Working Group.
+    Search for the research resource (please see the section titled “Search Features and Tips” for more information).
+    Click on the “Cite This” button to obtain the citation and insert the citation into the manuscript text.
+
+If there is a resource that is not found within the Portal, authors are asked to register the resource with the appropriate resource authority. Information on how to do this is provided in the “Resource Citation Guidelines” section of the Portal.
+
+If any difficulties in obtaining identifiers arise, please contact rii-help@scicrunch.org for assistance.
+
+Example Citations:
+
+Antibodies: "Wnt3 was localized using a rabbit polyclonal antibody C64F2 against Wnt3 (Cell Signaling Technology, Cat# 2721S, RRID: AB_2215411)"
+
+Model Organisms: "Experiments were conducted in c. elegans strain SP304 (RRID:CGC_SP304)"
+
+Cell lines: "Experiments were conducted in PC12 CLS cells (CLS Cat# 500311/p701_PC-12, RRID:CVCL_0481)"
+
+Tools, Software, and Databases: "Image analysis was conducted with CellProfiler Image Analysis Software, V2.0 (http://www.cellprofiler.org, RRID:nif-0000-00280)"
+
+ 
+
+5. EMBEDDED RICH MEDIA
+
+Please carefully read the following guidelines before submitting audio or video content.
+
+File specifications
+Maximum file size 	300 MB (note that the combined manuscript files for a submission, including video, audio, tables, figures, and text must not exceed 350 MB)
+File type 	Video: MP4
+
+Audio: MP3
+Aspect ratio 	16:9 (video only)
+
+Aspect ratios other than 16:9 will still play within the player. However, black bars above and below or to the side of the video will appear.
+Maximum duration 	Maximum length of 5 minutes
+File name format 	“[articlename]_video[no.]”
+or
+“[articlename]_audio[no.]”
+
+For example: surfacedistribution_video1.mp4
+
+Media information
+Title 	Should include “Video” or “Audio" followed by sequential numbers. E.g. “Video 1”.
+Caption 	Should include a short description of the video or audio
+Placeholder image (Video Only) 	Before the video is played, a static ‘placeholder’ image from the video will be displayed in the HTML version of the article. Authors should supply their preferred still image (following our standard image guidelines). This will also be used as a placeholder in the PDF version of the article.
+Transcript, as a seperate word document 	If the video/audio includes dialogue, a transcript should be included as a separate file. An English translation of any non-English speech should be provided in the transcript. Please note that that transcripts (and/or closed captioning) will not be proof-read by Wiley, nor will Wiley be responsible for any of the wording. Authors assume responsibility for the accuracy of supplied files.
+Alt text 	Text to appear in place of the media player when the richmedia cannot be displayed
+
+As with figures and tables, all videos/audios must be cited by title (e.g., “Audio 1”) within the text of the manuscript. Video/audio files should be submitted along with the article itself, the transcript, and any other files at point of submission.
+
+Authors are restricted from submitting video and audio that they do not have a license to.
+
+Participant Consent: It is the responsibility of the corresponding author to seek informed consent from any identifiable participant in the rich media files. Masking a participant’s eyes, or excluded head and shoulders is not sufficient. Please ensure that a consent form (https://authorservices.wiley.com/author-resources/Journal-Authors/licensing/licensing-info-faqs.html) is provided for each participant.
+
+6. EDITORIAL POLICIES AND ETHICAL CONSIDERATIONS
+
+Publication Policies and Procedures
+
+All Editors, Editorial Board members, and publisher’s staff at The Laryngoscope ensure that the highest ethical publication standards are maintained by assisting in safeguarding the medical scientific literature against fraudulent publications.
+
+All manuscripts are submitted for plagiarism detection through iThenticate. The Laryngoscope’s policy is based on the “Guidelines on Good Publication Practice” published by the Committee on Publication Ethics (COPE).
+
+Exclusive publication. The Laryngoscope reserves the right to exclusive publication of all accepted manuscripts. Examples of fraud in scientific research include (but are not limited to):
+
+    Submission of duplicate publications using similar data (i.e., attesting the manuscript submitted is original when it was submitted or accepted by another journal)
+    Falsification of data, copyright, or information regarding conflict of interest
+    Submission of manuscript from other sources that was not done by the author and is presented as original (i.e., plagiarism)
+    Authorship (allowing one’s name to appear as an author or adding an author to a manuscript) without substantial input or without having agreed to submission of the manuscript
+    Self-plagiarism (duplicating previously published material);
+    Undisclosed conflicts of interest
+
+If there are questions as to any issues regarding publication policies/procedures, please see Wiley’s Best Practice Guidelines on Publishing Ethics: https://authorservices.wiley.com/ethics-guidelines/index.html.
+
+Editorial Review and Acceptance
+
+The acceptance criteria for all manuscripts are the quality and originality of the research and its significance to journal readership. Manuscripts will only be sent to review if the Editor-in-Chief determines that the manuscript meets the appropriate quality and relevance requirements.  All manuscripts  selected for peer review are subjected to single-blind review. Wiley's policy on confidentiality of the review process is available here.
+
+At any time during the peer review process, including after the submission of a revised version, the article may be rejected. Decision related internal discussions between the editor in chief, associate editor and/or external reviewers is privileged.
+
+Refer and Transfer Program 
+
+Wiley believes that no valuable research should go unshared. This journal participates in Wiley’s Refer & Transfer program. If your manuscript is not accepted, you may receive a recommendation to transfer your manuscript to another suitable Wiley journal, either through a referral from the journal’s editor or through our Transfer Desk Assistant. 
+
+Data Storage and Documentation
+
+The Laryngoscope encourages data sharing wherever possible, unless this is prevented by ethical, privacy, or confidentiality matters. Authors publishing in the journal are therefore encouraged to make their data, scripts, and other artifacts used to generate the analyses presented in the manuscript available via a publicly available data repository; however, this is not mandatory.
+
+If the study includes original data, at least one author must confirm that he or she had full access to all the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis.
+
+Human Studies and Subjects
+
+For manuscripts reporting medical studies that involve human participants, a statement identifying the ethics committee that approved the study and confirmation that the study conforms to recognized standards is required in the Methods Section, for example: Declaration of Helsinki; US Federal Policy for the Protection of Human Subjects; or European Medicines Agency Guidelines for Good Clinical Practice.
+
+Images and information from individual participants will only be published where the authors have obtained the individual's free prior informed consent. Authors do not need to provide a copy of the consent form to the publisher; however, in signing the author license to publish, authors are required to confirm that consent has been obtained. Wiley has a standard patient consent form available for use.
+
+Animal Studies
+
+A statement indicating that the protocol and procedures employed were ethically reviewed and approved, as well as the name of the body giving approval, must be included in the Methods section of the manuscript. Authors are encouraged to adhere to animal research reporting standards, for example the ARRIVE reporting guidelines for reporting study design and statistical analysis; experimental procedures; experimental animals and housing and husbandry. Authors should also state whether experiments were performed in accordance with relevant institutional and national guidelines for the care and use of laboratory animals:
+
+    US authors should cite compliance with the US National Research Council's Guide for the Care and Use of Laboratory Animals, the US Public Health Service's Policy on Humane Care and Use of Laboratory Animals, and Guide for the Care and Use of Laboratory Animals.
+    UK authors should conform to UK legislation under the Animals (Scientific Procedures) Act 1986 Amendment Regulations (SI 2012/3039).
+    European authors outside the UK should conform to Directive 2010/63/EU.
+
+Clinical Trial Registration
+
+The journal requires that clinical trials are prospectively registered in a publicly accessible database and clinical trial registration numbers should be included in all manuscripts that report their results. Authors are asked to include the name of the trial register and the clinical trial registration number at the end of the abstract. If the trial is not registered, or was registered retrospectively, the reasons for this should be explained.
+
+Research Reporting Guidelines
+
+Accurate and complete reporting enables readers to fully appraise research, replicate it, and use it. Authors are expected to adhere to the following research reporting standards.
+
+    CONSORT guidelines for randomized trials
+    PRISMA guidelines for systematic reviews and meta-analyses
+
+Species Names
+
+Upon its first use in the title, abstract, and text, the common name of a species should be followed by the scientific name (genus, species, and authority) in parenthesis. for well-known species, however, scientific names may be omitted from the article titles. If no common name exists in English, only the scientific name should be used.
+
+Genetic Nomenclature
+
+Sequence variants should be described in the text and tables using both DNA and protein designations whenever appropriate. Sequence variant nomenclature must follow the current HGVS guidelines; see varnomen.hgvs.org, where examples of acceptable nomenclature are provided.
+
+Sequence Data
+
+Nucleotide sequence data can be submitted in electronic form to any of the three major collaborative databases: DDBJ, EMBL, or GenBank. It is only necessary to submit to one database as data are exchanged between DDBJ, EMBL, and GenBank on a daily basis. The suggested wording for referring to accession-number information is: ‘These sequence data have been submitted to the DDBJ/EMBL/GenBank databases under accession number U12345’. Addresses are as follows:
+
+    DNA Data Bank of Japan (DDBJ) www.ddbj.nig.ac.jp
+    EMBL Nucleotide Archive: ebi.ac.uk/ena
+    GenBank www.ncbi.nlm.nih.gov/genbank
+
+Proteins sequence data should be submitted to either of the following repositories.
+
+    Protein Information Resource (PIR): pir.georgetown.edu
+    SWISS-PROT: expasy.ch/sprot/sprot-top
+
+Structural Data
+
+For manuscripts describing structural data, atomic coordinates and the associated experimental data should be deposited in the appropriate databank (see below). Please note that the data in the databanks must be released, at the latest, upon publication of the article. We trust in the cooperation of our authors to ensure that atomic coordinates and experimental data are released on time.
+
+    Organic and organometallic compounds: Crystallographic data should not be sent as Supporting Information, but should be deposited with the Cambridge Crystallographic Data Centre (CCDC) at ccdc.cam.ac.uk/services/structure_deposit.
+    Inorganic compounds: Fachinformationszentrum Karlsruhe (FIZ; fiz-karlsruhe.de).
+    Protens and nucleic acids: Protein Data Bank (rcsb.org/pdb).
+    NMR spectroscopy data: BioMagResBank (bmrb.wisc.edu).
+
+Conflict of Interest
+
+The journal requires that all authors disclose any potential sources of conflict of interest. Any interest or relationship, financial or otherwise that might be perceived as influencing an author's objectivity is considered a potential source of conflict of interest. These must be disclosed when directly relevant or directly related to the work that the authors describe in their manuscript.
+
+Potential sources of conflict of interest include, but are not limited to: patent or stock ownership, membership of a company board of directors, membership of an advisory board or committee for a company, and consultancy for or receipt of speaker's fees from a company. The existence of a conflict of interest does not preclude publication. If the authors have no conflict of interest to declare, they must also state this at submission. It is the responsibility of the corresponding author to review this policy with all authors and collectively to disclose with the submission ALL pertinent commercial and other relationships.
+
+Funding
+
+Authors should list all funding sources in the Acknowledgments section. Authors are responsible for the accuracy of their funder designation. If in doubt, please check the Open Funder Registry for the correct nomenclature: https://www.crossref.org/services/funder-registry/
+
+Authorship
+
+All those listed as authors should qualify for authorship according to the following criteria in accordance with ICMJE standards:
+
+1. Have made substantial contributions to conception and design, or acquisition of data, or analysis and interpretation of data;
+2. Been involved in drafting the manuscript or revising it critically for important intellectual content;
+3. Given final approval of the version to be published. Each author should have participated sufficiently in the work to take public responsibility for appropriate portions of the content; and
+4. Agreed to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
+
+Individuals that do not meet the authorship requirements may be listed in the Acknowledgement section as collaborators.
+
+Artificial Intelligence Generated Content (AIGC) tools—such as ChatGPT and others based on large language models (LLMs)—cannot be considered capable of initiating an original piece of research without direction by human authors. They also cannot be accountable for a published work or for research design, which is a generally held requirement of authorship (as discussed in the previous section), nor do they have legal standing or the ability to hold or assign copyright. Therefore—in accordance with COPE’s position statement on AI tools—these tools cannot fulfill the role of, nor be listed as, an author of an article. If an author has used this kind of tool to develop any portion of a manuscript, its use must be described, transparently and in detail, in the Methods or Acknowledgements section. The author is fully responsible for the accuracy of any information provided by the tool and for correctly referencing any supporting work on which that information depends. Tools that are used to improve spelling, grammar, and general editing are not included in the scope of these guidelines. The final decision about whether use of an AIGC tool is appropriate or permissible in the circumstances of a submitted manuscript or a published article lies with the journal’s editor or other party responsible for the publication’s editorial policy.
+
+ORCID
+
+As part of the journal's commitment to supporting authors at every step of the publishing process the journal requires the submitting author (only) to provide an ORCID iD when submitting a manuscript. This takes around 2 minutes to complete. Find more information here.
+
+7. AUTHOR LICENSING
+
+If a manuscript is accepted for publication, the author identified as the formal corresponding author will receive an email prompting him/her to log in to Author Services, where via the Wiley Author Licensing Service (WALS) he/she will be required to complete a copyright or license agreement on behalf of all authors of the manuscript.
+
+Authors may choose to publish under the terms of the journal’s standard copyright agreement, or Open Access under the terms of a Creative Commons License.
+
+General information regarding licensing and copyright is available here. To review the Creative Commons License options offered under Open Access, please click here. (Note that certain funders mandate a particular type of CC license be used; to check this please click here.)
+
+Self-Archiving Definitions and Policies: Note that the journal’s standard copyright agreement allows for self-archiving of different versions of the article under specific conditions. Please click here for more detailed information about self-archiving definitions and policies.
+
+Open Access Fees: Authors who choose to publish using Open Access will be charged a fee. Pricing information is available here.
+
+Funder Open Access: Please click here for more information on Wiley’s compliance with specific Funder Open Access Policies.
+
+8. PUBLICATION PROCESS AFTER ACCEPTANCE
+
+Accepted Article Received in Production
+
+When an accepted article is received by Wiley’s production team, the corresponding author will receive an email asking him/her to log in or register with Wiley Author Services. The author will be asked to sign a publication license at this point.
+
+Proofs
+
+Once the manuscript is typeset, the author will receive an email notification with the URL to download a PDF typeset page proof, as well as associated forms and full instructions on how to correct and return the file.
+
+Please note that the author is responsible for all statements made in the work, including changes made during the editorial process – authors should check proofs carefully. Note that proofs should be returned within 48 hours from receipt of first proof.
+
+Publication Charges
+
+Free color online, charges for color in print Color figures.
+
+Color figures may be published online free of charge; however, the journal charges for publishing figures in color in print. If the authors supply color figures at Early View publication, they will be invited to complete a color charge agreement in RightsLink® for Author Services. The authors will have the option of paying immediately with a credit or debit card, or they can request an invoice. If the authors choose not to purchase color printing, the figures will be converted to black and white for the print issue of the journal.
+
+Triological Society Thesis Supplement Charges. Authors who choose to publish their accepted thesis as a supplement are required to pay the cost of page charges. There are no limits on word count, figure/table count. Authors should notify the Editorial staff at submission if the manuscript will be published as a supplement if accepted. The authors will be notified of the cost of page charges when they receive the proofs, along with instructions on how to pay for the charges.
+
+Early View
+
+The journal offers rapid publication via Wiley’s Early View service. Early View (Online Version of Record) articles are published on Wiley Online Library before inclusion in an issue. Note there may be a delay after corrections are received before the article appears online, as Editors also need to review proofs. Once the article is published on Early View, no further changes to the article are possible. The Early View article is fully citable and carries an online publication date and DOI for citations.
+
+9. POST PUBLICATION
+
+Access and Sharing
+
+When the article is published online:
+
+    The author receives an email alert (if requested).
+    The link to the published article can be shared through social media.
+    The author will have free access to the manuscript (after accepting the Terms & Conditions of use, they can view the article).
+    The corresponding author and co-authors can nominate up to ten colleagues to receive a publication alert and free online access to the article.
+
+Print copies of the article can be ordered (instructions are sent at proofing stage or use the below contact details).
+"
+
+Can you recommend how I should fix/update this?
+ChatGPT said:
+manuscript formatting and submission
+Reasoned for 5m 6s
+
+Below is a concise checklist of the key formatting updates most often required to align an original research manuscript with The Laryngoscope’s instructions for authors. I’ve broken it into eight steps, referencing the journal’s stated requirements.
+1. Title Page
+
+What to include:
+
+    Full manuscript title (no abbreviations), plus a short running title (≤40 characters).
+
+    Author names and highest academic degrees.
+
+    Institutional affiliations (where the work was conducted).
+
+    Funding and conflicts of interest statements.
+
+    Corresponding author name, address, phone, and email (this will be published).
+
+    Prior presentation or meeting information, if applicable.
+
+    Acknowledgments (if any).
+
+How it might look (abbreviated sample):
+
+    Title
+    Experimental Characterization of Endotracheal Tube Cuff Pressure-Volume Behavior in Simulated and Cadaveric Tracheas: A Comparative Study
+
+    Short Running Title
+    ETT Cuff P-V in Different Airway Models
+
+    Authors
+
+        Alexandria Harris, MD, MS<sup>1</sup>
+
+        Amila Nitsic, BS<sup>2</sup>
+
+        Kyle Affolter, MS<sup>3</sup>
+
+        Carl H. Snyderman, MD, MBA<sup>4</sup>
+
+    <sup>1</sup> Department of Otolaryngology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA
+    <sup>2</sup> Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA, USA
+    <sup>3</sup> School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA
+    <sup>4</sup> Departments of Otolaryngology and Neurological Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA
+
+    Funding: [Insert any funding sources or “None.”]
+    Conflicts of Interest: [Insert any conflicts or “The authors have no conflicts of interest.”]
+
+    Corresponding Author:
+    Carl H. Snyderman, MD, MBA
+    [Full mailing address]
+    Email: snydermanc@upmc.edu
+    Phone: +1 (XXX) XXX-XXXX
+
+2. Structured Abstract (≤250 words)
+
+For original reports, The Laryngoscope requests a structured abstract with four headings:
+
+    Objective (or “Objectives”)
+
+    Methods
+
+    Results
+
+    Conclusion
+
+Your current abstract mostly follows this format but ensure it uses these exact headings and that it does not exceed ~250 words. Move any references out of the abstract and into the main text.
+
+Also, The Laryngoscope requires:
+
+    Keywords: Provide 3–5 keywords after the abstract.
+
+    Level of Evidence: e.g., “Level of Evidence: NA” (if purely bench research or ex vivo cadaver studies) or “Level of Evidence: 4” if it is retrospective or observational.
+
+Example structured abstract snippet (condensed):
+
+    Objective: To characterize the pressure-volume (P-V) behavior of two common endotracheal tube (ETT) cuffs across three airway models (rigid, elastic, and cadaveric) and quantify the narrow volume threshold separating safe from injurious cuff pressures.
+    Methods: TaperGuard™ and Sheridan™ reinforced ETTs (sizes 6.0–8.0 mm) were incrementally inflated in rigid manikin, elastic synthetic, and cadaveric tracheas. …
+    Results: All cuffs showed nonlinear P-V curves. Cadaveric tracheas exhibited the steepest pressure escalation (ΔV as small as 0.25 mL between 20 and 30 cmH₂O). …
+    Conclusion: ETT cuff pressures are extremely sensitive to airway compliance. In cadaveric airways, minimal volume changes can precipitate unsafe pressures, emphasizing the importance of direct cuff pressure monitoring.
+
+    Keywords: endotracheal tube; cuff pressure; tracheal compliance; cadaveric model; airway management
+    Level of Evidence: NA
+
+3. Main Text Organization
+
+For an Original Report, the journal asks for:
+
+    Introduction
+
+    Materials and Methods (or “Methods”)
+
+    Results
+
+    Discussion
+
+    Conclusion
+
+    References
+
+Your current paper already has these sections (labeled slightly differently). Just rename or re-check for consistency with the guidelines:
+
+    Rename “Methods” and “Results” headings exactly as above.
+
+    Place the “Conclusion” as its own short, final heading.
+
+4. References: AMA Style in Consecutive Numerical Order
+
+    The Laryngoscope uses AMA style with superscript numerals in the text.
+
+    Reference list is in the order of citation in the text (the first appearance of each reference in the text is reference #1, next is #2, etc.).
+
+    Each reference entry typically follows this format (journal article example):
+
+    Author(s). Article title. Journal Name. Year;Volume(Issue):Page–Page. doi:
+
+    Make sure to remove references from the abstract itself.
+
+    Ensure you do not exceed the recommended maximum of 75 references (yours are under 30, so that is fine).
+
+Currently, your references are close to AMA style but check for:
+
+    Journal abbreviations (e.g., Laryngoscope, J Int Med Res).
+
+    Proper spacing, punctuation, italics.
+
+    Superscript citations in the main text.
+
+5. Tables and Figures
+
+    Label each table Table 1, Table 2, etc., with a descriptive title above it and any legends/footnotes below.
+
+    Legends for figures go below the figure, labeled Figure 1, Figure 2, etc., with a descriptive caption.
+
+    Each figure should be referred to in the text by number in consecutive order.
+
+    Note that The Laryngoscope counts multi-paneled figures as multiple. Ensure you stay within 8 total figures/tables recommended for an original article.
+
+6. Word Count
+
+For an Original Report:
+
+    Limit is ~3,000 words (Introduction through Conclusion), excluding abstract and references.
+
+    Double-check your total main-text word count. If you exceed 3,000, consider condensing.
+
+7. Ethical Statements
+
+If your study used cadaveric specimens, typically you should include a brief statement in Materials and Methods clarifying the IRB or institutional guidelines for cadaveric use, e.g.:
+
+    “This study did not involve live human or animal subjects. Ethical considerations for cadaver use followed the relevant institutional guidelines (approval #, if applicable).”
+
+8. Conflicts of Interest / Funding
+
+    Ensure you have a Conflict of Interest statement in the Title Page or in a footnote.
+
+    Clearly list all research grants or “None.”
+
+Summary of What to Fix
+
+    Create a proper Title Page with title, running title, authors, affiliations, conflict-of-interest statement, and corresponding-author info.
+
+    Use a structured abstract (Objective, Methods, Results, Conclusion), ≤250 words, followed by 3–5 Keywords and a Level of Evidence statement.
+
+    Organize main text into Introduction, Materials and Methods, Results, Discussion, Conclusion.
+
+    Use AMA reference style with superscript in-text citations in consecutive numeric order and a matching reference list.
+
+    Ensure table/figure limits (≤8 combined for an original article), label them clearly, and refer to them in order.
+
+    Check word count ~3,000 max for the main text.
+
+    Insert a short statement regarding IRB/ethical compliance for cadaveric samples.
+
+    Provide Conflicts of Interest/Funding statements.
+
+Following these steps will align your manuscript with The Laryngoscope’s main requirements for an Original Report. Once revised accordingly, you should be ready to submit via Wiley’s Research Exchange submission portal. Good luck!
+You said:
+Cover letter for this?
+ChatGPT said:
+Request for o1-pro
+Reasoned for 2m 28s
+
+Below is a suggested cover letter template that you can adapt for your submission:
+
+[Date]
+
+Editor-in-Chief, The Laryngoscope
+[Name of Editor-in-Chief, if known]
+c/o Wiley’s Research Exchange Submission Portal
+
+Dear Dr. [Editor’s Last Name] / Dear Editor:
+
+I am pleased to submit our manuscript, "Experimental Characterization of Endotracheal Tube Cuff Pressure-Volume Behavior in Simulated and Cadaveric Tracheas: A Comparative Study of Rigid, Elastic, and Cadaveric Airway Models," for consideration in The Laryngoscope.
+
+Significance and Purpose of the Study
+In this work, we characterized the pressure–volume (P-V) behavior of two common endotracheal tube (ETT) cuffs within three different tracheal models (rigid, elastic, and cadaveric). The primary aim was to highlight how variations in airway compliance can dramatically impact ETT cuff pressures and create a narrow safe zone for inflation. These data underscore the importance of direct cuff-pressure measurement in preventing both insufficient seal and dangerous overinflation.
+
+What the Study Adds
+This study brings novel insights into how real human (cadaveric) tissue differs significantly from commonly used manikin or elastic synthetic models. Given the potential for airway injury from elevated cuff pressures, these findings reinforce the clinical relevance of monitoring cuff pressures closely and the limitations of relying on manikin-based training alone. We believe this information will be valuable to anesthesiologists, otolaryngologists, and critical care specialists.
+
+Originality Statement
+We confirm that this work is original, has not been published previously (except as an abstract), and is not under consideration for publication elsewhere. All authors have approved the manuscript, agreed to its submission, and take responsibility for its content.
+
+Compliance with Ethical Guidelines
+This study did not involve live human or animal subjects. Ethical considerations for cadaveric use followed the relevant institutional policies and approval. We declare that the authors have no conflicts of interest to disclose, and the study did not receive external funding [if true—otherwise specify any funding sources].
+
+Why The Laryngoscope?
+The Laryngoscope is a premier journal for important clinical, academic, and research findings in otolaryngology, head and neck surgery, and related disciplines. We believe our manuscript offers clinically actionable insights into ETT cuff management and highlights areas where standard training methods may be improved. As such, it would be well aligned with the journal’s readership and mission.
+
+Thank you for your time and consideration of this manuscript. I look forward to your response.
+
+Sincerely,
+
+[Name, degrees]
+[Institution/Department]
+[Full Postal Address]
+[Phone Number]
+[Email Address]
+You said:
+Can we make this more appealling, less generic. We can remove ethical guidelines section since that established
+ChatGPT said:
+Request for o1-pro
+Reasoned for 2m 20s
+
+[Date]
+
+Editor-in-Chief, The Laryngoscope
+[Name of Editor-in-Chief, if known]
+Via Research Exchange Submission Portal
+
+Dear Dr. [Editor’s Last Name] / Dear Editor:
+
+I am pleased to submit our manuscript, “Experimental Characterization of Endotracheal Tube Cuff Pressure-Volume Behavior in Simulated and Cadaveric Tracheas: A Comparative Study of Rigid, Elastic, and Cadaveric Airway Models,” for your consideration in The Laryngoscope.
+
+Why This Study Matters
+Airway management often hinges on balancing endotracheal tube (ETT) cuff pressures to ensure adequate ventilation while minimizing mucosal injury. Yet, most training and clinical practice rely on manikin-based simulations that rarely approximate the compliance of actual human tissue. Our team sought to bridge that gap by systematically comparing P–V behavior across rigid, elastic, and cadaveric models.
+
+Key Insights
+We found that cadaveric tracheas exhibit a notably steeper pressure escalation than either the manikin or synthetic model, often requiring just a fraction of a milliliter of additional volume to push cuff pressures into the unsafe range (>30 cmH₂O). These findings highlight that even the most advanced elastic models may oversimplify real-world airway conditions, underscoring the critical need to monitor cuff pressures directly rather than relying solely on manikin-based training or “pilot-balloon feel.”
+
+Relevance to The Laryngoscope
+The readership of The Laryngoscope spans practicing otolaryngologists, anesthesiologists, and critical care specialists—all of whom regularly handle airways in high-stakes environments. We believe our data offer pragmatic guidance on ETT selection and inflation strategies, emphasize potential pitfalls in routine cuff management, and suggest ways to refine educational curricula for airway simulation.
+
+Originality and Disclosure
+This work is original, has not been submitted elsewhere, and all authors have approved the manuscript. We have no conflicts of interest and received no external funding for this research.
+
+We appreciate your time and consideration and look forward to the possibility of sharing our study with the journal’s community. Please do not hesitate to contact me with any questions or requests for additional information.
+
+Sincerely,
+
+[Your Full Name, Degrees]
+[Position/Title]
+[Department/Institution]
+[Mailing Address]
+[City, State, Zip]
+[Country]
+[Phone Number]
+[Email Address]
+You said:
+Now we want to create a supplemental information website that has photos of the methods and additional full supplementary data. 
+ChatGPT said:
+Request for o1-pro
+Reasoned for 51 seconds
+
+Below is a suggested approach to creating and describing a supplemental information website for your article. It includes both (a) the content and organizational plan for the website itself, and (b) a short statement you can place within your main manuscript to direct readers to the supplemental site. Feel free to adapt it to your specific needs and hosting platform.
+1. Website Organizational Plan
+
+A. Landing Page (“Overview”)
+
+    Short introduction:
+
+        One or two concise paragraphs that summarize what additional information is available.
+
+        State how it relates to the main article.
+
+    Link to Citation:
+
+        Include the article title, authors, and a direct link to the article on the journal’s website.
+
+        If applicable, note any relevant DOIs (article DOI, data repository DOIs, etc.).
+
+B. Methods Section Enhancement
+Include high-resolution photos or a short video of your methodology that would be too lengthy or too detailed for the article itself. Consider grouping them by subheadings. For example:
+
+    Trachea Preparation (cadaveric, elastic, or rigid model)
+
+    Instrument Setup (cuff manometer, syringes, data acquisition)
+
+    Inflation Protocol (stepwise demonstration of the increments in real time)
+
+Each subheading can contain:
+
+    Photo gallery or short embedded video.
+
+    Short descriptive captions (1–3 sentences each) clarifying what the user is looking at, or pointing out key details.
+
+C. Full Data Tables / Raw Data Files
+
+    Detailed Pressure-Volume Data: Provide CSV or Excel files for each trial if permissible.
+
+    Statistical Output: Upload any extended regression output, standard errors, 95% confidence intervals, etc.
+
+    Code or Scripts (if relevant): If you used R, Python, or another program for data analysis, share the script so others can replicate the analysis.
+
+D. Additional Figures or Graphs
+
+    High-resolution versions of your P–V curves, annotated to highlight important features.
+
+    Any color-coded or 3D schematics that might not fit in the print or PDF version.
+
+E. FAQ or Common Questions
+
+    An optional section addressing typical clarifications or concerns (e.g., “How were the cadaveric specimens prepared?” or “Why were certain tubes chosen?”).
+
+2. Sample Text to Include in the Manuscript
+
+You can insert a brief note (usually in the Methods, Discussion, or “Supplemental Materials” section) directing readers to your website for additional data. Below is an example:
+
+Supplemental Information Website
+
+    Detailed images of the experimental setup, additional raw data tables, and high-resolution figures are available on our supplemental information website: http://www.[YourSite].org/ETT-Supplement.
+
+    On this site, readers will find:
+
+        High-resolution photographs and schematics illustrating the cadaveric, elastic, and rigid airway models.
+
+        Complete numeric datasets (CSV format) for each pressure–volume trial, including intermediate steps and triplicate measurements.
+
+        Extended statistical analysis output, polynomial regression coefficients, and goodness-of-fit tables.
+
+        Additional commentary and media (e.g., short video clips) demonstrating the incremental cuff inflation process.
+
+(Note: The URL above is fictional—replace it with your actual link.)
+3. Tips for a User-Friendly Supplemental Website
+
+    Clear Navigation: Use a simple menu or table of contents so visitors can easily jump to “Methods Photos,” “Raw Data,” “Extended Stats,” etc.
+
+    Descriptive Filenames: If you offer file downloads, name them systematically (e.g., “CadavericModel_Trial1.csv,” “ElasticTrachea_PhotoSet.zip”) so they’re easy to identify.
+
+    Permalinks: Where possible, ensure each section (photos, data, etc.) has a stable URL so that references or bookmarks will not break.
+
+    Acknowledgments & Credits: If you had collaborators who helped create the supplemental data (lab techs, photographers, etc.), credit them here.
+
+    Compliance Statement: If there are any IRB, institutional, or patient privacy considerations, reiterate them on the website.
+
+4. Optional: Highlighting Interactive Elements
+
+If you plan to make the site more interactive—for example, embedded dynamic graphs or a “click-to-view” 3D model—be sure to provide short instructions or tooltips so visitors can engage with these elements.
+Summary
+
+By combining the main paper with a well-organized supplemental website, you can showcase complete data and visually document the nuances of your methods. That transparency not only strengthens the impact of your publication but also encourages reproducibility and educational value for others in the field.
+You said:
+Okay, make me a page. I have images I can place just let me know. I also have our supplementary data table. 
+ChatGPT said:
+Request for o1-pro
+Reasoned for 1m 40s
+
+Below is a simple single-page HTML template you can use for your supplemental materials. It provides clearly marked sections for adding images, extended data tables, and additional commentary. Simply replace the placeholder text (and image or table placeholders) with your own content.
+
+You can copy/paste this into a .html file, open it in a web browser locally, or upload it to any standard web server. Then insert your images (e.g., PNG/JPEG) and data tables (CSV/HTML) in the appropriate sections.
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supplemental Materials: Experimental Characterization of ETT Cuff P-V Behavior</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #333;
+      margin-top: 1em;
+    }
+    p {
+      max-width: 800px;
+    }
+    /* Basic styling for images and figure captions */
+    .img-block {
+      margin-bottom: 30px;
+    }
+    .img-block img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid #ccc;
+      margin: 10px 0;
+    }
+    .caption {
+      font-size: 0.9em;
+      font-style: italic;
+      color: #555;
+    }
+    /* Basic table styling */
+    .table-wrapper {
+      max-width: 100%;
+      overflow-x: auto; /* horizontal scroll if needed */
+      margin-bottom: 40px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 600px; /* so columns have space to show properly */
+      margin-bottom: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background: #f9f9f9;
+    }
+    /* Navigation at the top for quick jumps if you like anchors */
+    nav {
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #0066cc;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Optional top navigation to jump between sections -->
+  <nav>
+    <a href="#overview">Overview</a> | 
+    <a href="#methods-media">Methods Photos</a> | 
+    <a href="#data-tables">Supplementary Data</a> | 
+    <a href="#additional-figures">Additional Figures</a> 
+  </nav>
+
+  <h1 id="overview">Supplemental Information</h1>
+  <p>
+    <strong>Related Article:</strong><br>
+    “Experimental Characterization of Endotracheal Tube Cuff Pressure-Volume Behavior in Simulated and Cadaveric Tracheas:
+    A Comparative Study of Rigid, Elastic, and Cadaveric Airway Models”<br>
+    <em>By: Harris A, Nitsic A, Affolter K, Snyderman C.</em>
+  </p>
+
+  <p>
+    This page provides supplementary materials and extended data referenced in our manuscript. 
+    Please note that all methodology and findings here are intended to complement the primary publication. 
+    For any questions, contact the corresponding author: <em>snydermanc@upmc.edu</em>.
+  </p>
+
+  <!-- 1. METHODS / ADDITIONAL MEDIA SECTION -->
+  <h2 id="methods-media">1. Additional Methods Photos & Media</h2>
+  <p>
+    Below are high-resolution photographs of our experimental setup, showing the rigid (manikin), elastic, and cadaveric airway models, 
+    along with the inflation apparatus and data-recording instruments.
+  </p>
+
+  <!-- Example for an image block with caption -->
+  <div class="img-block">
+    <img src="path/to/YourImage1.jpg" alt="Cadaveric Airway Setup">
+    <p class="caption">Figure S1. Cadaveric trachea and manometer setup with incremental inflation interface.</p>
+  </div>
+
+  <!-- Add as many images as needed -->
+  <div class="img-block">
+    <img src="path/to/YourImage2.jpg" alt="Elastic Model in Testing Apparatus">
+    <p class="caption">Figure S2. Demonstration of the elastic synthetic model attached to the ETT cuff inflation system.</p>
+  </div>
+
+  <!-- 2. SUPPLEMENTARY DATA SECTION -->
+  <h2 id="data-tables">2. Full Supplementary Data Table(s)</h2>
+  <p>
+    The following table(s) present raw or extended data for all trials, including incremental volumes (mL), measured intracuff pressures (cmH₂O), 
+    and any additional notes from each inflation step.
+  </p>
+  
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Airway Model</th>
+          <th>Tube Type/Size</th>
+          <th>Inflation Step (mL)</th>
+          <th>Pressure (cmH₂O)</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- You will fill this out with your data. -->
+        <tr>
+          <td>Cadaveric</td>
+          <td>TaperGuard 6.0</td>
+          <td>0.2</td>
+          <td>5</td>
+          <td>Trial #1 replicate</td>
+        </tr>
+        <tr>
+          <td>Cadaveric</td>
+          <td>TaperGuard 6.0</td>
+          <td>0.4</td>
+          <td>8</td>
+          <td>Trial #1 replicate</td>
+        </tr>
+        <!-- ... repeat for all data rows -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- You can add more tables or links to CSV files here -->
+  <p>
+    For convenience, the full raw dataset is also available as a downloadable CSV:
+    <a href="path/to/SupplementaryData.csv" download>Click here to download</a>.
+  </p>
+
+  <!-- 3. ADDITIONAL FIGURES -->
+  <h2 id="additional-figures">3. Additional Figures and Graphs</h2>
+  <p>
+    Below are supplemental plots illustrating polynomial vs. power-law fits for each cuff and airway model, beyond what was shown in the main manuscript.
+  </p>
+
+  <div class="img-block">
+    <img src="path/to/SuppFig1.png" alt="Polynomial Fit Comparison Chart">
+    <p class="caption">Figure S3. Comparison of polynomial (3rd-order) and power-law models for TaperGuard 7.0 in the elastic model, highlighting differences at higher volumes.</p>
+  </div>
+
+  <div class="img-block">
+    <img src="path/to/SuppFig2.png" alt="Pressure Escalation Slope Chart">
+    <p class="caption">Figure S4. Pressure escalation slopes for each ETT type (6.0, 7.0, 8.0 mm) in cadaveric vs. elastic vs. rigid models.</p>
+  </div>
+
+  <!-- OPTIONAL: Video or FAQ if you have -->
+  <!--
+  <h2>4. Video Demonstration</h2>
+  <video width="640" height="360" controls>
+    <source src="path/to/YourVideo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <p class="caption">Video S1. Real-time demonstration of cuff inflation in the cadaveric airway model.</p>
+  -->
+
+  <!-- Footer / Contact Info -->
+  <hr>
+  <p>
+    <strong>Contact:</strong><br>
+    [Your Name], [Institution / Department]<br>
+    [Email Address]<br>
+    [Phone Number if desired]
+  </p>
+
+</body>
+</html>
+
+Instructions:
+
+    Save as an HTML file: Copy everything above into a plain text editor (e.g., Notepad, Sublime, VS Code), name it something like supplementary.html, and save.
+
+    Insert your actual content:
+
+        Replace path/to/YourImage1.jpg with the real filenames or URLs of your images.
+
+        Populate the data table <tbody> rows with your extended data.
+
+        If you have a CSV file of your supplementary data, also place that in the same directory (or host it online somewhere), and update the link accordingly.
+
+    Host or share: You can open it locally in a browser for quick reference or upload it to a web server (university site, GitHub Pages, etc.). Then provide the URL in your main manuscript text under “Supplemental Information Website.”
+
+This layout is minimal but flexible, enabling you to add more sections or rearrange them as needed. Feel free to expand the style and structure if you want additional features (such as advanced navigation, collapsible sections, or embedded videos).
+You said:
+make this more stylish and matching of the theme of the university of pittsburgh colors
+ChatGPT said:
+Request for o1 pro mode
+Reasoned for 58 seconds
+
+Below is a slightly more polished single-page HTML template styled with the primary University of Pittsburgh color palette (Pitt Royal and Pitt Gold). Feel free to tweak color values, fonts, or layout to match your personal taste or any official departmental guidelines.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supplemental Materials: ETT Cuff P-V Study</title>
+  <style>
+    /* 
+      Primary Pitt Colors (approx):
+      Pitt Royal: #003594
+      Pitt Gold:  #FFB81C
+    */
+
+    /* Reset & Body */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header / Navbar */
+    header {
+      background-color: #003594; /* Pitt Royal */
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      color: #FFB81C; /* Pitt Gold */
+      font-size: 1.8rem;
+      margin-bottom: 0.3em;
+    }
+    header p {
+      color: #fff;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #FFB81C;  /* Pitt Gold */
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fbe27c; /* a lighter gold on hover */
+      text-decoration: underline;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Section Titles */
+    h2, h3 {
+      color: #003594; /* Pitt Royal */
+      margin-top: 1.4em;
+      margin-bottom: 0.6em;
+    }
+
+    p {
+      margin-bottom: 1em;
+      max-width: 900px;
+    }
+
+    /* Image Blocks & Captions */
+    .img-block {
+      margin-bottom: 30px;
+    }
+    .img-block img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border: 2px solid #ccc;
+      margin: 10px 0;
+    }
+    .caption {
+      font-size: 0.9em;
+      font-style: italic;
+      color: #555;
+    }
+
+    /* Tables */
+    .table-wrapper {
+      max-width: 100%;
+      overflow-x: auto;
+      margin-bottom: 40px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 600px;
+      margin-bottom: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #003594; /* Pitt Royal */
+      color: #fff;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #003594; 
+      color: #fff;
+      text-align: center;
+      padding: 10px 20px;
+      margin-top: 40px;
+    }
+
+    /* Media Queries (Optional) */
+    @media (max-width: 768px) {
+      nav a {
+        display: inline-block;
+        margin: 5px 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Supplemental Materials</h1>
+    <p>Experimental Characterization of ETT Cuff P-V Behavior in Simulated &amp; Cadaveric Tracheas</p>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#methods-media">Methods Photos</a>
+      <a href="#data-tables">Supplementary Data</a>
+      <a href="#additional-figures">Additional Figures</a>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- OVERVIEW -->
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>
+        <strong>Related Article:</strong> “Experimental Characterization of Endotracheal Tube Cuff Pressure-Volume Behavior in 
+        Simulated and Cadaveric Tracheas: A Comparative Study of Rigid, Elastic, and Cadaveric Airway Models.”
+        <br><em>By: Harris A, Nitsic A, Affolter K, Snyderman C.</em>
+      </p>
+      <p>
+        Welcome to the supplemental information portal for our ETT cuff study. 
+        Here you’ll find extended datasets, detailed photographs, and additional analyses 
+        that complement the manuscript. For questions, please contact 
+        <em>snydermanc@upmc.edu</em>.
+      </p>
+    </section>
+
+    <!-- METHODS PHOTOS -->
+    <section id="methods-media">
+      <h2>1. Additional Methods Photos &amp; Media</h2>
+      <p>
+        Below are high-resolution images showcasing our experimental setups: 
+        rigid (manikin), elastic synthetic, and cadaveric models. 
+        Each was tested with incremental cuff inflation and real-time pressure measurement.
+      </p>
+
+      <!-- Sample Image Block -->
+      <div class="img-block">
+        <img src="path/to/YourImage1.jpg" alt="Cadaveric Airway Setup">
+        <p class="caption">Figure S1. Cadaveric trachea setup with the cuff inflation system and pressure transducer.</p>
+      </div>
+
+      <div class="img-block">
+        <img src="path/to/YourImage2.jpg" alt="Elastic Model in Testing Apparatus">
+        <p class="caption">Figure S2. The elastic synthetic airway model attached to the standard manometer.</p>
+      </div>
+      <!-- Add more images or even an embedded video if desired -->
+    </section>
+
+    <!-- SUPPLEMENTARY DATA TABLE(S) -->
+    <section id="data-tables">
+      <h2>2. Full Supplementary Data</h2>
+      <p>
+        The table below presents our extended dataset of incremental volumes (mL) and corresponding 
+        ETT cuff pressures (cmH<sub>2</sub>O) across all trials and airway models. 
+        Download links for the raw CSV files are also provided for those wishing to perform secondary analysis.
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Airway Model</th>
+              <th>Tube Type / Size</th>
+              <th>Inflation Step (mL)</th>
+              <th>Pressure (cmH<sub>2</sub>O)</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Example rows; replace with real data -->
+            <tr>
+              <td>Cadaveric</td>
+              <td>TaperGuard 6.0</td>
+              <td>0.2</td>
+              <td>5</td>
+              <td>Trial #1 replicate</td>
+            </tr>
+            <tr>
+              <td>Cadaveric</td>
+              <td>TaperGuard 6.0</td>
+              <td>0.4</td>
+              <td>8</td>
+              <td>Trial #1 replicate</td>
+            </tr>
+            <!-- Continue as needed -->
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        <strong>Download:</strong> 
+        <a href="path/to/SupplementaryData.csv" download>SupplementaryData.csv</a> 
+        (Comma-Separated Values)
+      </p>
+    </section>
+
+    <!-- ADDITIONAL FIGURES & GRAPHS -->
+    <section id="additional-figures">
+      <h2>3. Additional Figures &amp; Charts</h2>
+      <p>
+        Below are supplemental plots highlighting polynomial versus power-law fits, as well as 
+        slope comparisons at higher inflation volumes across the three airway models.
+      </p>
+
+      <div class="img-block">
+        <img src="path/to/SuppFig1.png" alt="Polynomial vs. Power-Law Chart">
+        <p class="caption">Figure S3. Polynomial (3rd-order) vs. power-law fits for TaperGuard 7.0 in the elastic model, illustrating differences at 3–5 mL inflation.</p>
+      </div>
+
+      <div class="img-block">
+        <img src="path/to/SuppFig2.png" alt="Pressure Escalation Slope Chart">
+        <p class="caption">Figure S4. Pressure escalation slopes across 6.0, 7.0, and 8.0 mm tubes in cadaveric vs. synthetic airway models.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>University of Pittsburgh • Department of Otolaryngology • Pittsburgh, PA</p>
+    <p>&copy; 2025 University of Pittsburgh. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+How to Use:
+
+    Save as an HTML File
+    Create a file named something like pitt_supplemental.html. Copy and paste the code above into that file.
+
+    Insert Your Own Content
+
+        Replace path/to/YourImage1.jpg with the correct paths or URLs to your images and figures.
+
+        Fill in the data table with your actual extended dataset.
+
+        Update text in the <p> sections as appropriate (e.g., your real contact email, more details, etc.).
+
+    Adjust Colors / Styling
+
+        The main colors are in the CSS near the top. You can adjust them if you want more variation.
+
+        If you have official Pitt fonts or want a different font, replace "Helvetica Neue", Arial, sans-serif in the body CSS with the correct font-family.
+
+    Host or Share
+
+        Double-clicking the .html file will open it locally in most browsers.
+
+        If hosting online, upload the file (plus images, CSVs, etc.) to your server, then share that URL in your manuscript’s “Supplemental Materials” reference.
+
+With this template, you have a clean, Pittsbrugh-themed supplemental website that organizes images, data, and additional figures for your readers!
+You said:
+make sure text is centered where it should be.
+ChatGPT said:
+
+Here's your revised Supplemental Materials webpage template with text appropriately centered, especially in the header and footer sections, maintaining the University of Pittsburgh colors and a clean professional appearance:
+
+Simply copy and paste this into an .html file and replace placeholders with your own content.
+✅ Final Polished Version:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supplemental Materials: ETT Cuff P-V Study</title>
+  <style>
+    /* Pitt Colors */
+    :root {
+      --pitt-royal: #003594;
+      --pitt-gold: #FFB81C;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--pitt-royal);
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    header h1 {
+      color: var(--pitt-gold);
+      margin-bottom: 10px;
+    }
+
+    header p {
+      margin-bottom: 15px;
+    }
+
+    nav a {
+      color: var(--pitt-gold);
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 8px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fbe27c;
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: var(--pitt-royal);
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+
+    .img-block {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .img-block img {
+      width: 90%;
+      max-width: 800px;
+      border: 2px solid #ccc;
+      margin: 10px auto;
+      display: block;
+    }
+
+    .caption {
+      font-style: italic;
+      color: #555;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 600px;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+    }
+
+    th {
+      background-color: var(--pitt-royal);
+      color: #fff;
+      padding: 10px;
+    }
+
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      background-color: var(--pitt-royal);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    a.download-link {
+      color: var(--pitt-royal);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a.download-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Supplemental Materials</h1>
+    <p><strong>Experimental Characterization of ETT Cuff P-V Behavior<br>in Simulated and Cadaveric Tracheas</strong></p>
+    <nav>
+      <a href="#overview">Overview</a> |
+      <a href="#methods-media">Methods Photos</a> |
+      <a href="#data-tables">Supplementary Data</a> |
+      <a href="#additional-figures">Additional Figures</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <!-- Overview -->
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>
+        <strong>Related Article:</strong><br>
+        “Experimental Characterization of Endotracheal Tube Cuff Pressure-Volume Behavior in Simulated and Cadaveric Tracheas: A Comparative Study of Rigid, Elastic, and Cadaveric Airway Models”<br>
+        <em>Harris A, Nitsic A, Affolter K, Snyderman C.</em>
+      </p>
+      <p>
+        This supplemental information provides detailed visuals, extended data, and analyses related to our publication. Questions or requests for additional information can be directed to <strong>snydermanc@upmc.edu</strong>.
+      </p>
+    </section>
+
+    <!-- Methods Photos -->
+    <section id="methods-media">
+      <h2>Methods Photos &amp; Media</h2>
+
+      <div class="img-block">
+        <img src="path/to/YourImage1.jpg" alt="Cadaveric Airway Setup">
+        <p class="caption">Figure S1. Cadaveric trachea setup with cuff inflation system.</p>
+      </div>
+
+      <div class="img-block">
+        <img src="path/to/YourImage2.jpg" alt="Elastic Model Apparatus">
+        <p class="caption">Figure S2. Elastic synthetic airway model and manometer setup.</p>
+      </div>
+
+      <!-- Add more image blocks as needed -->
+    </section>
+
+    <!-- Supplementary Data -->
+    <section id="data-tables">
+      <h2>Full Supplementary Data</h2>
+      <p>
+        Extended data are presented below. You can also download the complete dataset:
+        <a href="path/to/SupplementaryData.csv" class="download-link" download>Download CSV</a>
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Airway Model</th>
+              <th>Tube Type/Size</th>
+              <th>Inflation (mL)</th>
+              <th>Pressure (cmH<sub>2</sub>O)</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cadaveric</td>
+              <td>TaperGuard 6.0</td>
+              <td>0.2</td>
+              <td>5</td>
+              <td>Trial #1 replicate</td>
+            </tr>
+            <tr>
+              <td>Cadaveric</td>
+              <td>TaperGuard 6.0</td>
+              <td>0.4</td>
+              <td>8</td>
+              <td>Trial #1 replicate</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Additional Figures -->
+    <section id="additional-figures">
+      <h2>Additional Figures</h2>
+
+      <div class="img-block">
+        <img src="path/to/SuppFig1.png" alt="Polynomial Fit">
+        <p class="caption">Figure S3. Polynomial vs. power-law fits for TaperGuard 7.0 (elastic model).</p>
+      </div>
+
+      <div class="img-block">
+        <img src="path/to/SuppFig2.png" alt="Pressure Escalation Slope">
+        <p class="caption">Figure S4. Pressure escalation slopes comparison across models.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Department of Otolaryngology | University of Pittsburgh | Pittsburgh, PA</p>
+    <p>&copy; 2025 University of Pittsburgh. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+🚀 How to use this page:
+
+    Save: Copy into a file named supplemental.html.
+
+    Replace: Update src paths for images and CSV files.
+
+    Deploy: Upload to your server, university webspace, or GitHub pages.
+
+    Include link: Mention this page URL in your manuscript's supplementary materials section.
+
+This version will ensure professional styling, proper centering of headers, images, and captions, and maintains consistent branding with University of Pittsburgh colors.
+You said:
+Now add some text for this based on our paper
+ChatGPT said:
+
+Here's your revised, fully polished supplemental materials HTML page with added professional text derived directly from your manuscript. Simply replace placeholder paths with your images/data and upload as instructed.
+
+Here's your supplemental materials webpage, fully prepared with professional, descriptive text derived from your original manuscript. Replace image paths and data file paths as needed!
+You said:
+Here is our paper without our supplemental information: Title:  Characterization of Endotracheal Tube Cuff Pressure-Volume in Simulated and Cadaveric Tracheas
+A Comparative Study of Rigid, Elastic, and Cadaveric Airway Models
+
+Authors: 
+Alexandria Harris, MD, MS
+Department of Otolaryngology, University of Pittsburgh Medical Center, Pittsburgh, PA, USA
+Amila Nitsic, BS
+Swanson School of Engineering, University of Pittsburgh, Pittsburgh, PA, USA
+Kyle Affolter, MS
+School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA
+Carl H. Snyderman, MD, MBA 
+Departments of Otolaryngology and Neurological Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA
+
+Corresponding Author: 
+Carl H. Snyderman, MD, MBA (Corresponding Author)
+Department of Otolaryngology and Neurological Surgery, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA
+Email: snydermanc@upmc.edu
+
+
+Conflict of Interest: No conflict of interest to disclose for all authors.
+Source of Financial Support: No financial support was indicated for this project.
+
+ 
+
+Abstract:
+Objective:
+To characterize the pressure-volume (P-V) behavior of two common endotracheal tube (ETT) cuffs across three airway models of increasing anatomic realism: rigid, elastic, and cadaveric, and to quantify the narrow volume threshold separating safe from potentially injurious cuff pressures.
+Methods:
+We tested TaperGuard™ and Sheridan™ reinforced ETTs (sizes 6.0-8.0 mm) in rigid manikin, elastic synthetic, and cadaveric tracheas. Cuff pressure was recorded after 0.2 mL incremental inflation up to 120 cmH₂O. Polynomial and power-law models were fitted to the P-V curves. Key metrics included ΔV from 20 to 30 cmH₂O, curve slope, and model fit accuracy.
+Results:
+All cuffs demonstrated nonlinear P-V behavior. Cadaveric tracheas exhibited the steepest pressure escalation, with ΔV (20→30 cmH₂O) as small as 0.25 mL. Elastic models showed delayed pressure rise, while rigid models escalated rapidly once wall contact was reached. Polynomial models (R² ≥ 0.93-0.99) better captured high-pressure transitions than power-law fits. Tapered cuffs achieved effective seals with lower volumes than cylindrical cuffs but demonstrated similarly steep pressure increases when overinflated.
+Conclusion:
+ETT cuff behavior is highly sensitive to airway compliance. Cadaveric airways showed a narrower inflation margin than synthetic models, underscoring the limitations of manikin-based training. Across designs, small additional volumes can precipitate unsafe pressures, highlighting the need for precise pressure-guided cuff management over volume estimation.
+
+ 
+
+Introduction
+Cuffed endotracheal tubes (ETT) are ubiquitous in airway management for anesthesia and critical care, serving the dual purpose of securing ventilation and protecting the lungs from aspiration of oropharyngeal contents.  Optimal management of endotracheal tube cuffs requires balancing pressures that must be high enough to prevent air leaks and dangerous aspiration of secretions, but not so high as to cause tissue damage. If cuff pressure exceeds the perfusion pressure of the tracheal mucosa, ischemic injury can occur, potentially leading to ulceration, cartilage damage, and long-term complications like tracheal stenosis1. If too low, it may allow aspiration of secretions or blood around the cuff, a major pathway for ventilator associated pneumonia and respiratory compromise in intubated patients2,3.
+The recommended safe range for ETT cuff pressures (20-30 cm H2O) has been established from clinical and experimental observations showing pressures above 30 cm H2O showed visible blanching of the tracheal mucosa suggesting capillary compromise and those below 20 showed concerns for aspiration of secretions around the ETT cuff4,5. Researchers have proposed various inflation strategies, from minimal occlusive volume to continuous cuff pressure monitoring, to mitigate the risks of over or under inflation2,6–8. Microaspiration can occur even with “proper” cuff pressures if there are folds or channels in the cuff, or if the pressure is insufficient to overcome factors like positive airway pressure or changes in patient position9–11.  To mitigate aspiration, manufacturers have introduced modifications such as tapered cuff shapes (which aim to reduce cuff folds and create a more continuous seal) and novel cuff materials like ultrathin polyurethane (which conforms more closely to the tracheal wall than traditional thicker PVC cuffs) 12–15.
+Despite these advances, direct comparisons of ETT cuff performance between different tube brands and in airways with different compliance, such as rigid airway simulators, elastic models, and cadaveric tissue, remain limited. Previous work has demonstrated that tracheal anatomy can significantly affect intracuff pressure, because cuff shape, thickness, and resting diameter all interact with the airway’s compliance and geometry16,17.  However, few studies have simultaneously examined multiple ETT designs across varied airway conditions to characterize how quickly pressures may escalate. Such data are critical for clinicians who must decide which tube and inflation strategy to use under different circumstances, particularly when clinical resources for advanced monitoring (e.g., specialized cuff manometers or continuous volume‐time curves) may be limited18.
+To better understand these dynamics, the present study systematically compared ETT cuff pressure-volume (P-V) behavior using three different tracheal models of increasing realism: a rigid pipe, an elastic simulated trachea model, and a cadaveric human trachea. By examining how ach model responds to incremental cuff inflation, we aimed to delineate the nonlinear P-V characteristics of ETT cuffs and the impact of airway compliance. This knowledge is crucial for improving cuff management strategies and preventing complications due to the narrow volume range between adequate sealing and overinflation.
+
+Materials and Methods
+
+We evaluated the P-V behavior of  ETT cuffs across three airway models:
+•	Rigid manikin airway (Ambu™) simulating a noncompliant trachea
+•	Elastic airway trainer (TruCorp™) representing compliant, tissue-like expansion
+•	Cadaveric human tracheas (freshly frozen without fixatives) representing true human airway compliance
+Two common adult ETT cuff types were tested in each model:
+•	TaperGuard™ (Covidien) - a tapered high-volume, low-pressure cuff
+•	Sheridan™ Reinforced (Teleflex) - a cylindrical high-volume, low-pressure cuff
+Each tube was tested with internal diameters ranging from 6.0 to 8.0 mm. Cuffs were incrementally inflated using a Luer-lock syringe (max volume 10mL) in 0.2 mL steps, with intracuff pressure recorded after each injection using a calibrated cuff manometer. Inflation continued until 120 cmH₂O was reached. Each tube-model combination was tested in triplicate. Third-order polynomial models were fitted to the P-V data using least-squares regression: 
+P(V) = a + bV + cV2 + dV3
+If the cubic coefficient (d) was not statistically significant (p>0.05), the model was reduced to a second order (quadratic) polynomial:
+P(V) =  a  + bV  + cV2.
+Additionally, power-law relationships of the form:
+P(V)=αVβ
+were compared by log-transforming both variables and applying linear regression:
+ln(P)=ln(α)+βln(V).
+Model performance was evaluated using the coefficient of determination (R2) and the standard error of the estimate (SEE). Pressure escalation slopes from 20 to 30 cmH₂O (i.e., ΔP/ΔV) were calculated, and inter-model differences in these slopes were analyzed using analysis of variance (ANOVA) and Tukey posthoc comparisons. Paired t-tests were employed to compare residuals (polynomial vs. power-law) in the high-pressure region (V≥3.0 mL). All statistical tests were conducted in SPSS v28, with significance defined as p<0.05.
+This study did not involve live human or animal subjects. Ethical considerations for cadaver use followed the relevant institutional guidelines (CORID #1091).
+
+Results 
+Nonlinear Pressure-Volume Behavior Across Models
+All three airway models, rigid manikin, elastic trainer, and cadaveric trachea, demonstrated nonlinear pressure-volume (P-V) behavior across cuff types and sizes. Cuff pressure remained low in early inflation phases but escalated sharply beyond a specific threshold volume. Third-order polynomial models consistently produced a superior fit for this behavior, particularly in the high-pressure range (R² ≥ 0.93-0.99), outperforming power-law models, which underestimated pressures by 5-15 cmH₂O when inflation exceeded 3.0-3.5 mL.
+Rigid Model
+In the rigid manikin model, pressure escalation occurred at inflation volumes of 2.0-2.5 mL across both TaperGuard and Sheridan cuffs. Polynomial fits achieved R² values of 0.98-0.99 with standard errors of estimate (SEE) <2.0 cmH₂O. For instance, a representative TaperGuard 6.0 cuff fit was:
+P(V)=3.50−15.33V+25.32V2−3.25V3(R2=0.98, SEE=1.87 cmH2O)
+whereas the power-law approximation (ln(P)=16.18+1.42ln(V)) began to underestimate pressures by several cmH₂O at volumes greater than 3.0 mL, seen in Table 1. The volume increment (ΔV) required to transition from 20 cmH₂O to 30 cmH₂O ranged widely (0.22-0.70 mL), showing how quickly hazards of overinflation can develop in a noncompliant airway setting. Power-law approximations became increasingly inaccurate beyond 3.0 mL, underestimating pressure by 3-5 cmH₂O.
+Elastic Trucorp Model
+In the Trucorp elastic model, greater airway compliance allowed delayed pressure inflection. Compared to the rigid model, the inflation volume needed to reach 20 cmH₂O was 15-30% higher. However, once that threshold was surpassed, pressure still rose steeply into the 30 cmH₂O range within 0.3-0.4 mL. A representative polynomial fit (Sheridan 7.0 cuff) showed:
+P(V)=−0.13+5.08V−2.24V2+0.41V3(R2=0.98, SEE=0.45 cmH2O).
+while power-law functions (P=3.18V1.19) systematically under-predicted the final high-pressure phase by 5-10 cmH₂O if volumes exceeded roughly 4.5 mL (Table 2). Mean ΔV from 20 to 30 cmH₂O for both cuff types was 0.40 mL.
+Cadaver Tissue
+The cadaver trachea exhibited the earliest and steepest pressure escalation. Inflation volumes of just 2.5-3.0 mL resulted in pressures exceeding 20 cmH₂O, with only 0.2-0.3 mL additional air required to reach 30 cmH₂O. This ΔV was 50% smaller than in synthetic models (p < 0.01), indicating a significantly narrower "safe" inflation margin. For a TaperGuard 6.0 cuff:
+P(V)=−0.64+25.45V+14.66V2−2.77V3(R2=0.997, SEE=0.17 cmH2O)
+In contrast, a power-law approximation (P=e34.39V1.48) reproduced only the initial, lower-pressure range and erred by as much as 10-15 cmH₂O when volumes approached the 3.0-3.5 mL region, example in Table 3. Pressure escalation slopes in cadaveric tissue were 15-18% steeper than synthetic models (p < 0.01), suggesting heightened risk for mucosal injury in less compliant human tissue.
+Cuff Design and Size Effects
+Cross-model analysis for 7.0 mm cuffs demonstrated the following ΔV (20→30 cmH₂O):
+•	Rigid model: 0.46 mL (TaperGuard), 0.50 mL (Sheridan)
+•	Elastic model: 0.40 mL (both cuffs)
+•	Cadaver model: 0.25 mL (TaperGuard), 0.30 mL (Sheridan)
+Escalation slopes (cmH₂O/mL) were sharpest in cadaveric tissue: 40.0 (TaperGuard) vs. 33.3 (Sheridan), compared to 20-25 in synthetic models, summarized in the cross-model comparison (Table 4). Notably, the cadaver model had significantly smaller standard errors of estimate and showed a marked inflection in P-V curves within narrow volume thresholds.
+TaperGuard cuffs required slightly lower volumes to achieve 20-30 cmH₂O compared to Sheridan cuffs, particularly in smaller tube sizes. At lower pressures, cuff geometry influenced inflation behavior: TaperGuard curves had smaller quadratic/cubic terms, indicating flatter slopes in early inflation phases. However, once pressure exceeded ~25 cmH₂O, both cuffs showed converging escalation behavior. Figures 3 and 4 show cross model comparisons of 6.0 and 8.0 size tubes.
+Tube size influenced the absolute volume required to seal: 8.0 mm tubes needed 0.3-0.5 mL more than 6.0 mm tubes to reach 20 cmH₂O. However, this effect diminished at higher pressures, with similar ΔV and slope characteristics beyond 25 cmH₂O across sizes (p > 0.10). Among all sizes and models, the narrowest ΔV occurred in cadaveric models, independent of tube diameter. Full dataset-level fits and regression coefficients are provided in Supplementary Table 5. 
+
+Discussion
+Our findings demonstrate that ETT cuff pressure-volume dynamics can vary dramatically depending on both the cuff design and the compliance of the surrounding tracheal environment. In the cadaveric trachea model, which most closely approximates the human airway, we observed a particularly steep pressure rise as the cuff approached its sealing volume. Notably, an increase of just ~0.25 mL of air near the sealing point caused cuff pressure to climb sharply into the high-pressure range. This underscores how limited the “safe zone” of inflation can be in a realistic airway: once the cuff fills the available tracheal space, even a tiny additional volume can send pressures past 30 cmH₂O. 
+Our study demonstrates low-pressure plateau followed by high pressure spikes in all scenarios. This dual behavior is expected as it aligns with balloon mechanics where the uninflated, or underinflated cuff is easy to inflate when it is not constrained, however when it pushes against the solid boundary (the trachea), it requires increasingly high pressures to inflate. This transition occurred around 25-30 cmH₂O, suggesting that the cuff pressure safety range of 30 cmH₂O is not just related to tissue ischemia, but the mechanical tipping point where the trachea experiences a disproportionate increate in force for each added volume.  This finding is consistent with prior observations that ETT cuffs are highly sensitive to small volume increments, particularly in stiffer or smaller airway conduits, leading to disproportionately large pressure changes above our mechanical tipping point15,16. This underscores the importance of measuring cuff pressure whenever feasible, rather than relying solely on pilot‐balloon palpation or default inflation volumes3,19. In contrast, the elastic trachea model (with greater wall compliance) allowed a slightly larger volume window before a similarly dramatic pressure escalation occurred, whereas the rigid tube model (with no ability to expand) tended to reach high pressures abruptly as soon as the cuff contacted the wall. The key insight is that tracheal compliance significantly influences the pressure-volume (P-V) curve: less compliant airways yield much steeper P-V slopes and thus require especially careful inflation to avoid overshooting safe pressures.
+Cuff design also played a pivotal role in cuff performance. Tapered cuffs achieved an effective seal at lower inflation volumes compared to conventional cylindrical cuffs, reaching the target safe pressure (~20-25 cmH₂O) with less air. Clinically, this suggests that tapered high-volume cuffs conform to the tracheal wall more efficiently, needing less inflation to obturate the airway. Such behavior can be beneficial in that it reduces the initial volume (and pressure) required for an adequate seal, potentially lowering the risk of unnecessary overinflation. Our results are consistent with prior reports that tapered cuff tubes can form a seal at lower cuff pressures than cylindrical designs.20 However, “less volume to seal” does not eliminate the risk of injury from overinflation, it simply shifts the pressure-volume curve. In our tests, if a tapered cuff was inflated beyond the minimal sealing volume, its pressure still rose quickly and could exceed safe thresholds, though the critical volume at which this occurred was smaller. This finding reinforces that regardless of cuff shape and varying cuff size, even when the internal tube diameter is identical, vigilant monitoring of cuff pressure is required rather than relying solely on pilot‐balloon palpation or default inflation volumes32129. A tapered cuff may provide a modest safety buffer; for example, a better seal at lower baseline pressure and smaller pressure changes with certain external stresses, but our results confirm that it too can generate excessive pressures if overinflated or if the tracheal wall cannot accommodate further expansion20,27,28. 
+Another notable aspect of this study is the mathematical characterization of the cuff’s pressure-volume behavior. We found that a third-order polynomial function provided a superior fit for the high-pressure segment of the P-V curve compared to a simple power-law model. In practical terms, this means the relationship between added volume and resulting pressure is not a fixed exponential ratio but rather has a more complex curvature, particularly as the cuff becomes tightly constrained by the tracheal wall. The polynomial model captured the abrupt upswing in pressure that occurs as the cuff approaches the limits of the tracheal space, whereas the power-law model tended to underestimate these late-phase pressure surges. This insight supports the concept that cuff inflation dynamics involve multiple phases - an initial compliant phase followed by a sharply rising phase once the cuff and trachea walls are in close apposition. It also explains why small volume increments can be benign early in inflation but hazardous later on.22 Standard in vitro testing or modeling that assumes a simple volume-pressure relationship may fail to predict these dangerous spikes, underscoring the need for cautious, stepwise inflation and continuous pressure monitoring in practice23. By appreciating the nonlinear and compliance-dependent nature of ETT cuff dynamics demonstrated in this study, practitioners and researchers can better tailor cuff inflation practices to maintain airway security while minimizing the risk of mucosal damage.
+From a clinical perspective, our results underline several important points for airway management. Pressures exceeding 30 cmH₂O can rapidly compromise tracheal mucosal blood flow and have been linked to tissue damage when sustained4. Our data illustrate how easily such high pressures may be reached if cuff volume is not carefully titrated, reinforcing the importance of using the minimum effective cuff volume (or pressure) to achieve a seal and of keeping cuff pressures below ~30 cmH₂O21. Across the three airway models, rigid, elastic, and cadaveric, the margin between a “safe” 20 cmH₂O and 30 cmH₂O could be as small as 0.2-0.3 mL of added air. Because syringes or manual estimates often exceed such small increments, there is a real risk of inadvertently applying unsafe pressures17,24.  In practice, this means routine use of cuff pressure manometers and adherence to minimal occlusive volume techniques, since “just a bit more air” in an already inflated cuff can inadvertently cause a dramatic pressure rise. Additionally, the pronounced influence of tracheal compliance suggests that individual patient factors (such as tracheal stiffness or external compression by neck surgical retractors) will significantly affect cuff pressures. An inflation that results in 20 cmH₂O in one patient might produce far higher pressure in another with a stiffer airway or narrower tracheal diameter, even for the same added volume of air13. Bench tests using rigid airway models likely underestimate these patient-specific differences, so clinicians should be especially vigilant and consider continuous pressure monitoring in situations of reduced or altered airway compliance, even if initial cuff pressures appear acceptable14,23,25. Moreover, simulation-based airway models, while useful for training, often lack the fidelity to predict real-world pressure-volume dynamics, particularly in edge cases23,25,26.
+There are limitations to this study. First, though the cadaveric trachea more closely approximates actual tissue anatomy and stiffness than do synthetic models, it cannot replicate living physiology such as mucosal blood flow or reactive edema30. Second, we did not track changes in cuff pressure or tracheal compliance over time. Gradual tracheal dilation in cadavers or evolving edema in living tissue could alter compliance, but these dynamics were not captured here.  Third, we did not evaluate long‐term effects of sustained cuff pressures on tissue integrity; future studies could investigate extended inflation and perfusion in ex vivo or in vivo designs. Despite these limitations, the trends observed provide valuable guidance for clinicians about how cuff design and patient anatomy interact. Additional research might focus on real‐time cuff monitoring during patient maneuvers, e.g., head rotation, sedation changes, or mechanical ventilation adjustments, that can inadvertently shift cuff volumes. Investigations into next‐generation cuffs (e.g., advanced materials or tapered shapes) may also clarify whether they mitigate the steep pressure jumps reported here, ultimately guiding safer design or recommended inflation strategies12.
+Conclusions
+This study demonstrates that ETT cuff pressure-volume behavior is highly sensitive to both airway compliance and cuff design. In the cadaveric trachea, where compliance is lowest, cuff pressure escalated sharply with as little as 0.25 mL of added volume, leaving a narrow margin between sealing and overinflation. Tapered cuffs reached safe pressures with lower volumes than cylindrical cuffs, but all designs exhibited steep pressure increases beyond the sealing point. Polynomial models best captured these nonlinear dynamics. Clinically, these findings emphasize the importance of cuff pressure monitoring and caution against using fixed inflation volumes. Safe airway management requires an appreciation of how small volume adjustments can disproportionately affect cuff pressure, especially in less compliant airways.
+
+References
+1.	Hong S, Wu X, Feng H, et al. Risk factors for patients with tracheal stenosis: a systematic review and meta-analysis. J Int Med Res. 2024;52(9):03000605241275884. doi:10.1177/03000605241275884
+2.	Sole ML, Su X, Talbert S, et al. Evaluation of an intervention to maintain endotracheal tube cuff pressure within therapeutic range. Am J Crit Care Off Publ Am Assoc Crit-Care Nurses. 2011;20(2):109-117; quiz 118. doi:10.4037/ajcc2011661
+3.	Liu J, Zhang X, Gong W, et al. Correlations between controlled endotracheal tube cuff pressure and postprocedural complications: a multicenter study. Anesth Analg. 2010;111(5):1133-1137. doi:10.1213/ANE.0b013e3181f2ecc7
+4.	Mu G, Wang F, Li Q, Yu X, Lu B. Reevaluating 30 cmH2O endotracheal tube cuff pressure: risks of airway mucosal damage during prolonged mechanical ventilation. Front Med. 2024;11:1468310. doi:10.3389/fmed.2024.1468310
+5.	Seegobin RD, van Hasselt GL. Endotracheal cuff pressure and tracheal mucosal blood flow: endoscopic study of effects of four large volume cuffs. Br Med J Clin Res Ed. 1984;288(6422):965-968.
+6.	Bolzan DW, Gomes WJ, Faresin SM, de Camargo Carvalho AC, De Paola ÂAV, Guizilini S. Volume-Time Curve: An Alternative for Endotracheal Tube Cuff Management. Respir Care. 2012;57(12):2039-2044. doi:10.4187/respcare.01812
+7.	Nseir S, Zerimech F, Fournier C, et al. Continuous control of tracheal cuff pressure and microaspiration of gastric contents in critically ill patients. Am J Respir Crit Care Med. 2011;184(9):1041-1047. doi:10.1164/rccm.201104-0630OC
+8.	Dat VQ, Minh Yen L, Thi Loan H, et al. Effectiveness of Continuous Endotracheal Cuff Pressure Control for the Prevention of Ventilator-Associated Respiratory Infections: An Open-Label Randomized, Controlled Trial. Clin Infect Dis Off Publ Infect Dis Soc Am. 2022;74(10):1795-1803. doi:10.1093/cid/ciab724
+9.	Negro MSD, Barreto G, Antonelli RQ, et al. Effectiveness of the endotracheal tube cuff on the trachea: physical and mechanical aspects. Rev Bras Cir Cardiovasc Órgão Of Soc Bras Cir Cardiovasc. 2014;29(4):552-558. doi:10.5935/1678-9741.20140096
+10.	Blot SI, Poelaert J, Kollef M. How to avoid microaspiration? A key element for the prevention of ventilator-associated pneumonia in intubated ICU patients. BMC Infect Dis. 2014;14(1):119. doi:10.1186/1471-2334-14-119
+11.	Blot SI, Rello J, Koulenti D. The value of polyurethane-cuffed endotracheal tubes to reduce microaspiration and intubation-related pneumonia: a systematic review of laboratory and clinical studies. Crit Care Lond Engl. 2016;20(1):203. doi:10.1186/s13054-016-1380-8
+12.	Mahmoodpoor A, Hamishehkar H, Hamidi M, et al. A prospective randomized trial of tapered-cuff endotracheal tubes with intermittent subglottic suctioning in preventing ventilator-associated pneumonia in critically ill patients. J Crit Care. 2017;38:152-156. doi:10.1016/j.jcrc.2016.11.007
+13.	Lichtenthal P, Borg U. Endotracheal cuff pressure: role of tracheal size and cuff volume. Crit Care. 2011;15(Suppl 1):P147. doi:10.1186/cc9567
+14.	Rozycki SK, Dixon FP, Yopp MA, Maxvold NJ, Rubin BK. Endotracheal Tube Seal and Suction Performance in a Novel Biorealistic Tracheal Model. Respir Care. 2015;60(8):1113-1119. doi:10.4187/respcare.03799
+15.	Dave MH, Frotzler A, Spielmann N, Madjdpour C, Weiss M. Effect of tracheal tube cuff shape on fluid leakage across the cuff: an in vitro study. Br J Anaesth. 2010;105(4):538-543. doi:10.1093/bja/aeq202
+16.	Bernhard WN, Yost L, Joynes D, Cothalis S, Turndorf H. Intracuff pressures in endotracheal and tracheostomy tubes. Related cuff physical characteristics. Chest. 1985;87(6):720-725. doi:10.1378/chest.87.6.720
+17.	Bolzan DW, Gomes WJ, Peixoto TCA, et al. Clinical Use of the Volume-Time Curve for Endotracheal Tube Cuff Management. Respir Care. 2014;59(11):1628-1635. doi:10.4187/respcare.02683
+18.	Carhart E, Stuck LH, Salzman JG. Achieving a Safe Endotracheal Tube Cuff Pressure in the Prehospital Setting: Is It Time to Revise the Standard Cuff Inflation Practice? Prehosp Emerg Care. 2016;20(2):273-277. doi:10.3109/10903127.2015.1061626
+19.	Stewart SL, Secrest JA, Norwood BR, Zachary R. A comparison of endotracheal tube cuff pressures using estimation techniques and direct intracuff measurement. AANA J. 2003;71(6):443-447.
+20.	Li YS, Tan ECH, Tsai YJ, et al. A Tapered Cuff Tracheal Tube Decreases the Need for Cuff Pressure Adjustment After Surgical Retraction During Anterior Cervical Spine Surgery: A Randomized Controlled, Double-Blind Trial. Front Med. 2022;9. doi:10.3389/fmed.2022.920726
+21.	Zhang YN, Shi HY, Shen WQ, et al. Effect of varying cuff sizes with identical inner diameter on endotracheal intubation in critically ill adults: A sealed tracheal controlled trial. Medicine (Baltimore). 2024;103(24):e38326. doi:10.1097/MD.0000000000038326
+22.	Hoffman RJ, Sturmann K, Dueffer H, Kilpela K, Howell A, Hahn I. 87: Do Endotracheal Tube Cuff Pressure and Volume Have a Linear or Nonlinear Relationship? Ann Emerg Med. 2006;48(4):27. doi:10.1016/j.annemergmed.2006.07.535
+23.	McGaghie WC, Issenberg SB, Petrusa ER, Scalese RJ. A critical review of simulation-based medical education research: 2003-2009. Med Educ. 2010;44(1):50-63. doi:10.1111/j.1365-2923.2009.03547.x
+24.	Hoffman RJ, Dahlen JR, Lipovic D, Stürmann KM. Linear Correlation of Endotracheal Tube Cuff Pressure and Volume. West J Emerg Med. 2009;10(3):137-139.
+25.	Cooper JB, Taqueti VR. A brief history of the development of mannequin simulators for clinical education and training. Qual Saf Health Care. 2004;13 Suppl 1(Suppl 1):i11-18. doi:10.1136/qhc.13.suppl_1.i11
+26.	Lau ACW, Lam SM, Yan WW. Benchtop study of leakages across the Portex, TaperGuard, and Microcuff endotracheal tubes under simulated clinical conditions. Hong Kong Med J Xianggang Yi Xue Za Zhi. 2014;20(1):7-15. doi:10.12809/hkmj133930
+27.	Jaillette E, Girault C, Brunin G, et al. Impact of tapered-cuff tracheal tube on microaspiration of gastric contents in intubated critically ill patients: a multicenter cluster-randomized cross-over controlled trial. Intensive Care Med. 2017;43(11):1562-1571. doi:10.1007/s00134-017-4736-x
+28.	Mu G, Wang F, Li Q, Yu X, Lu B. Reevaluating 30 cmH2O endotracheal tube cuff pressure: risks of airway mucosal damage during prolonged mechanical ventilation. Front Med. 2024;11:1468310. doi:10.3389/fmed.2024.1468310
+29.	Kim S. Comparison of the cuff pressures of a TaperGuard endotracheal tube during ipsilateral and contralateral rotation of the head. Medicine (Baltimore). 2018;97(42):e12702. doi:10.1097/MD.0000000000012702
+30.	Seifert LB, Schnurr B, Herrera-Vizcaino C, et al. 3D-printed patient individualised models vs cadaveric models in an undergraduate oral and maxillofacial surgery curriculum: Comparison of student’s perceptions. Eur J Dent Educ Off J Assoc Dent Educ Eur. 2020;24(4):799-806. doi:10.1111/eje.12522
+
+ 
+
+List of Tables and Figures:
+Table 1. Ambu Rigid Model (7.0 mm Tubes)
+Table 2. Trucorp Elastic Model (7.0 mm Tubes)
+Table 3. Cadaver Model (7.0 mm Tubes)
+Table 4. Cross-Model Comparison of 7.0 mm Tubes. *p < 0.01 vs. synthetic models.
+Table 5. Supplementary Table, full best fit dataset
+
+Figures:
+Figure 1: Representative example of pressure-volume curves in the standard 7.0 size TaperGuard HVLP ETTs
+Figure 2: Representative example of pressure-volume curves in the standard 7.0 size Sheridan Reinforced HVLP ETTs 
+Figure 3: Cross Model Comparison of Volume and Pressure Between 6.0 and 8.0 TaperGuard HVLP ETTs
+Figure 4: Cross Model Comparison of Volume and Pressure Between 6.0 and 8.0 Sheridan Reinforced HVLP ETTs
+ChatGPT said:
+
+Here's your updated supplemental materials webpage, now incorporating content from your provided manuscript and styled to reflect the University of Pittsburgh's colors. Replace placeholders with your images, data, and hosting details as needed:
+
+Here's your formatted supplemental materials webpage incorporating content from your manuscript. Replace placeholders with your actual images and data as indicated. Let me know if you need any additional adjustments!
+You said:
+Oh, this didn't seem to include more text and descriptsion
+ChatGPT said:
+
+Here's a detailed, polished supplemental information page with comprehensive descriptions and placeholders based on your provided manuscript. It matches the University of Pittsburgh's visual style. You can easily insert your specific images, tables, and data as described:
+
+I've created a detailed supplemental information page structured clearly to integrate your manuscript descriptions, data placeholders, and methodological imagery. Let me know if additional refinements or specific image placement instructions are needed!
+You said:
+Here is my current site with accurate links: <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -224,10 +2334,7 @@
 </p>
   </div>
 
-  <div class="img-block">
-    <img src="path/to/SuppFig2.png" alt="Pressure Escalation Slope Chart">
-    <p class="caption">Figure S4. Pressure escalation slopes for each ETT type (6.0, 7.0, 8.0 mm) in cadaveric vs. elastic vs. rigid models.</p>
-  </div>
+
 
   <!-- OPTIONAL: Video or FAQ if you have -->
   <!--
@@ -257,3 +2364,190 @@
 </body>
 </html>
 
+
+Here is a link to a video showing how the manometer works: https://www.youtube.com/watch?v=EE_3vBiOTWQ
+ChatGPT said:
+
+Here's your updated HTML with corrections and added description text matching your manuscript's theme and style. It also correctly integrates your provided links and organizes the media clearly:
+
+Your supplemental webpage has been updated to include detailed descriptive text, clearly labeled figures, integrated video, and accurate links matching your manuscript's content. Let me know if further adjustments are needed!
+
+This still needs 
+ChatGPT can make mistakes. Check important info.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supplemental Materials: ETT Cuff P-V Study</title>
+  <style>
+    /* Pitt Colors */
+    body { font-family: "Helvetica Neue", Arial, sans-serif; background-color: #f9f9f9; color: #333; margin:0; }
+    header { background-color: #003594; color:#fff; padding:20px; text-align:center; }
+    header h1 { color:#FFB81C; }
+    nav a { color:#FFB81C; text-decoration:none; margin:0 10px; }
+    nav a:hover { color:#fff; }
+    .container { max-width: 1000px; margin:auto; padding:20px; }
+    h2 { color:#003594; margin-top:1em; }
+    .img-block img { max-width:100%; border:2px solid #ccc; margin:10px 0; }
+    .caption { font-style:italic; color:#555; }
+    table { width:100%; border-collapse:collapse; margin-bottom:20px; }
+    th { background-color:#003594; color:#fff; }
+    td, th { border:1px solid #ccc; padding:10px; }
+    footer { background-color:#003594; color:#fff; text-align:center; padding:10px; margin-top:40px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Supplemental Materials</h1>
+  <p>Characterization of ETT Cuff Pressure-Volume Behavior</p>
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#methods">Methods Photos</a>
+    <a href="#data">Supplementary Data</a>
+    <a href="#additional">Additional Figures</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h2 id="overview">Study Overview</h2>
+  <p>This supplemental webpage includes detailed methodological visuals and comprehensive datasets from our comparative study examining the pressure-volume characteristics of endotracheal tube (ETT) cuffs across rigid, elastic, and cadaveric airway models.</p>
+  <p><strong>Main Article:</strong> Harris et al. (2024). Characterization of Endotracheal Tube Cuff Pressure-Volume in Simulated and Cadaveric Tracheas.</p>
+  
+  <h2 id="methods">Methods Visualization</h2>
+  <div class="img-block">
+    <img src="https://imgur.com/a/9NIg6JR.jpeg">
+    <p class="caption">Figure S1. Syringe-manometer-ETT cuff setup demonstrating incremental inflation.</p>
+  </div>
+  
+  <div class="img-block">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0086%2F2355%2F4640%2Fproducts%2FEndotest1_1600x.jpg%3Fv%3D1589212600">
+    <p class="caption">Figure S2. Rusch Teleflex manometer highlighting safe intracuff pressures.</p>
+  </div>
+
+  <div class="img-block">
+    <img src="https://imgur.com/a/lrZovyX">
+    <p class="caption">Figure S3. Elastic TruCorp model connected for cuff pressure testing.</p>
+  </div>
+
+  <div class="img-block">
+    <img src="https://imgur.com/a/JbTPqFH">
+    <p class="caption">Figure S4. Rigid Ambu airway trainer with attached ETT cuff system.</p>
+  </div>
+
+  <div class="img-block">
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/EE_3vBiOTWQ" frameborder="0" allowfullscreen></iframe>
+    <p class="caption">Video S1. Demonstration of intracuff pressure measurement using a cuff manometer.</p>
+  </div>
+
+  <h2 id="data">Full Supplementary Data</h2>
+  <p>The complete dataset including volume increments, recorded intracuff pressures, and polynomial regression fits can be accessed below:</p>
+  <p><a href="https://1drv.ms/x/c/fd30d62dca4e9b52/ERiGbNpnfUtBofswLg1AlV8BPxkaouOmhsnFDRtreFdyNw?e=wEuhQl" target="_blank">Download Full Data Table</a></p>
+  <div class="img-block">
+    <img src="https://imgur.com/a/gmom9nw">
+    <p class="caption">Table S1. Full supplementary dataset overview (click above for download).</p>
+  </div>
+
+  <h2 id="additional">Additional Figures and Graphs</h2>
+  <div class="img-block">
+    <img src="https://imgur.com/a/yZBfwDq">
+    <p class="caption">Figure S5. Polynomial fit comparison of Sheridan Reinforced vs. TaperGuard ETT cuffs (7.0 mm).</p>
+  </div>
+</div>
+
+<footer>
+  <p>Contact: Alexandria Harris, MD | UPMC Otolaryngology | AlexHarrisMD@gmail.com | (412) 728-0815</p>
+</footer>
+
+</body>
+</html>
+
+ChatGPT says: Your supplemental webpage has been updated to include detailed descriptive text, clearly labeled figures, integrated video, and accurate links matching your manuscript's content. Let me know if further adjustments are needed!
